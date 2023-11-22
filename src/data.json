@@ -1,0 +1,267 @@
+
+{
+    "status": "ok",
+    "totalResults": 66,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Hakyung Kim",
+            "title": "Stock market today: Live updates - CNBC",
+            "description": "Futures were higher in premarket trading as Wall Street tried to regain its footing.",
+            "url": "https://www.cnbc.com/2023/11/09/stock-market-today-live-updates.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107326078-1698758530118-gettyimages-1765623456-wall26362_igj6ehhp.jpeg?v=1698758587&w=1920&h=1080",
+            "publishedAt": "2023-11-10T14:35:00Z",
+            "content": "Oil prices rose slightly Friday but are down for the week after a sell-off in response to signs that demand is wavering and as fears of a broader Middle East War ease. \r\nBrent crude contracts for Jan… [+892 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Annie Palmer",
+            "title": "Amazon's top Fresh exec says store reopenings are part of broader grocery revamp - CNBC",
+            "description": "Amazon is reopening several Fresh stores, with a focus on offering more products and a better customer experience",
+            "url": "https://www.cnbc.com/2023/11/10/amazon-top-fresh-exec-says-store-reopenings-part-of-grocery-revamp.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107331902-1699578193913-amazon_fresh_store_in_woodland_hills.jpg?v=1699578279&w=1920&h=1080",
+            "publishedAt": "2023-11-10T14:00:01Z",
+            "content": "Amazon Fresh store in Los Angeles neighborhood of Woodland Hills\r\nIn February, Amazon CEO Andy Jassy said his company was hitting pause on opening up new Fresh supermarkets and Go convenience stores … [+6182 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Barron's"
+            },
+            "author": "Adam Clark, Al Root",
+            "title": "Plug Power Stock Crashes. The Hydrogen Company Is Looking for Government Help. - Barrons - Barron's",
+            "description": "Plug Power stock tumbled after it issued a warning over its financial position. The hydrogen-technology company looks to be in dire need of a governemnt tax credit and a potential loan to turn its fortunes round.",
+            "url": "https://www.barrons.com/articles/plug-power-stock-earnings-price-7f84ec2f",
+            "urlToImage": "https://images.barrons.com/im-474379/social",
+            "publishedAt": "2023-11-10T12:56:00Z",
+            "content": "Updated Nov 10, 2023, 7:56 am EST / Original Nov 10, 2023, 5:19 am EST"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Alexandra Canal",
+            "title": "Stock market news today: Stock futures point to higher open despite hawkish-toned Fed - Yahoo Finance",
+            "description": "Stocks were looking to close out a winning week with a bang.",
+            "url": "https://finance.yahoo.com/news/stock-market-news-today-stocks-higher-after-fed-yields-break-8-day-winning-streak-143225367.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/hDySdWu64poVXrfOKG05Fw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/87c98580-7fc5-11ee-b0ef-e5cae195a182",
+            "publishedAt": "2023-11-10T12:53:04Z",
+            "content": "Stocks opened higher on Friday, a day after a jump in bond yields and a more hawkish tone from Federal Reserve Chair Jerome Powell helped to snap the longest winning streak for the S&amp;P 500 and Na… [+2282 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Jess Weatherbed",
+            "title": "Verizon may offer Netflix and Max as a combined $10 streaming bundle - The Verge",
+            "description": "Verizon is reportedly planning to offer a discounted bundle of streaming services that includes the ad-supported tiers of both Netflix and Warner Bros. Discovery’s Max.",
+            "url": "https://www.theverge.com/2023/11/10/23955191/verizon-netflix-warner-discovery-max-streaming-bundle-ads",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/NBZTppTeJA4pQnvOkmb7_cu7Qzw=/0x0:3600x1800/1200x628/filters:focal(1800x900:1801x901)/cdn.vox-cdn.com/uploads/chorus_asset/file/24888446/ONE_PIECE_n_S1_00_47_10_14R.jpeg",
+            "publishedAt": "2023-11-10T12:47:52Z",
+            "content": "Netflix and Max could be offered together in a $10 Verizon streaming bundle\r\nNetflix and Max could be offered together in a $10 Verizon streaming bundle\r\n / The more affordable bundle aims to combat … [+1907 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Breck Dumas",
+            "title": "Power grid watchdog warns of higher winter blackout risks, cites Biden energy policies as top threat - Fox Business",
+            "description": "The North American Electric Reliability Corp. says more than half the U.S. is at risk of electricity shortages this winter, and it warns against the EPA's proposed power plant rule.",
+            "url": "https://www.foxbusiness.com/politics/power-grid-watchdog-warns-higher-winter-blackout-risks-biden-energy-policies-top-threat",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/07/0/0/Power-Lines.jpg?ve=1&tl=1",
+            "publishedAt": "2023-11-10T12:30:00Z",
+            "content": "The North American Electric Reliability Corp. (NERC) warned this week that more than half the U.S. is at an elevated risk of blackouts this winter due to a combination of increased demand, regional p… [+2919 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Madeleine Speed",
+            "title": "Diageo warns of hit to profits from slowdown in Latin America and Caribbean - Financial Times",
+            "description": "Shares tumble 15% after drinks group says growth will slow in first half on back of worsening sales slump",
+            "url": "https://www.ft.com/content/054efdd1-3dc6-46d4-90b4-f21428960031",
+            "urlToImage": null,
+            "publishedAt": "2023-11-10T12:03:06Z",
+            "content": "What is included in my trial?\r\nDuring your trial you will have complete digital access to FT.com with everything in both of our Standard Digital and Premium Digital packages.\r\nStandard Digital includ… [+1494 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": null,
+            "title": "Nvidia Is Looking Cheap to Some as 220% Rally Stalls - Yahoo Finance",
+            "description": null,
+            "url": "https://finance.yahoo.com/news/nvidia-looking-cheap-220-rally-113822681.html",
+            "urlToImage": null,
+            "publishedAt": "2023-11-10T11:38:22Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MarketWatch"
+            },
+            "author": "Jamie Chisholm",
+            "title": "Stocks may struggle until Thanksgiving as bond yields bounce. And one sector in particular is a turkey. - MarketWatch",
+            "description": "Critical information for the U.S. trading day",
+            "url": "https://www.marketwatch.com/story/stocks-may-struggle-until-thanksgiving-as-bond-yields-bounce-and-one-sector-in-particular-is-a-turkey-3d59a21e",
+            "urlToImage": "https://images.mktw.net/im-882932/social",
+            "publishedAt": "2023-11-10T11:34:00Z",
+            "content": "Early Friday futures suggest stocks will steady after an eight-day winning streak hit the buffers in the previous session.Bulls had hoped that the recent swift 50 basis-point slide in benchmark Treas… [+7068 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Arjun Kharpal",
+            "title": "China's ICBC, the world's biggest bank, hit by cyberattack that reportedly disrupted Treasury markets - CNBC",
+            "description": "The U.S. financial services division of Chinese bank ICBC was hit with a cyberattack that reportedly disrupted the trading of Treasurys.",
+            "url": "https://www.cnbc.com/2023/11/10/icbc-the-worlds-biggest-bank-hit-by-ransomware-cyberattack.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/105242832-GettyImages-103658095.jpg?v=1699614214&w=1920&h=1080",
+            "publishedAt": "2023-11-10T11:15:16Z",
+            "content": "A pedestrian walks pass a branch of Industrial &amp; Commercial Bank of China (ICBC) in Fuzhou, Fujian province of China.\r\nThe U.S. financial services division of Chinese bank ICBC was hit with a cyb… [+5379 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Betty Lin-Fisher",
+            "title": "Aldi deals: Save on groceries, wine and Aldi Finds 'Aisle of Shame' - USA TODAY",
+            "description": "Aldi has loyal fans who like to share how they've saved on deals. Here's some tips before you go.",
+            "url": "https://www.usatoday.com/story/money/food/2023/11/10/aldi-deals-savings-guide/71331885007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2023/10/26/USAT/71332661007-usatsi-19694036.jpg?crop=4894,2754,x0,y254&width=3200&height=1801&format=pjpg&auto=webp",
+            "publishedAt": "2023-11-10T10:05:12Z",
+            "content": "If you dont carry cash, make sure you at least have a quarter if youre going shopping at Aldi. \r\nYoull need a quarter if you want a shopping cart for your goods. But dont worry, you'll get it back wh… [+7883 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay, Kelsey Vlamis",
+            "title": "Grimes couldn't catch Elon Musk to serve custody papers for children - Business Insider",
+            "description": "Grimes tried to find Elon Musk at headquarters for X, Tesla, SpaceX, and Neuralink, among other locations, to serve him papers in their custody fight.",
+            "url": "https://www.businessinsider.com/grimes-custody-elon-musk-children-x-tesla-spacex-neuralink-headquarters-2023-11",
+            "urlToImage": "https://i.insider.com/654d8fd736d588dc55ce37a5?width=1200&format=jpeg",
+            "publishedAt": "2023-11-10T10:00:00Z",
+            "content": "Grimes hired people to search high and low for her kids' father, Elon Musk,\r\n in order to serve him with custody papers, according to court records obtained by Insider.\r\nThe singer, whose legal name … [+5269 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Christy Choi",
+            "title": "Miss Universe owner files for bankruptcy days before pageant - CNN",
+            "description": "The owner of Miss Universe, JKN Global Group, has confirmed that next week’s pageant will go ahead, despite the Thai firm filing for bankruptcy.",
+            "url": "https://www.cnn.com/style/miss-universe-owner-bankrupt-pageant/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231109232019-miss-universe-ceo-2022-file.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-11-10T09:21:00Z",
+            "content": "The owner of Miss Universe, JKN Global Group, has confirmed that next weeks pageant will go ahead, despite the Thai firm filing for bankruptcy.\r\nThe media distribution company, which bought the Miss … [+2745 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "William Schomberg, Andy Bruce",
+            "title": "UK economy fails to grow but sidesteps start of a recession - Reuters UK",
+            "description": "Britain's stagnating economy failed to grow in the July-to-September period but at least managed to avoid the start of a recession, figures from the Office for National Statistics showed on Friday.",
+            "url": "https://www.reuters.com/world/uk/uk-economy-fails-grow-third-quarter-ons-2023-11-10/",
+            "urlToImage": "https://www.reuters.com/resizer/Gh23ZJVm-956RT3o5G25wKKJxB8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4NLGTMFZMNLE5O6DKMNKXWB6PA.jpg",
+            "publishedAt": "2023-11-10T09:12:00Z",
+            "content": "LONDON, Nov 10 (Reuters) - Britain's stagnating economy failed to grow in the July-to-September period but at least managed to avoid the start of a recession, figures from the Office for National Sta… [+3355 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Evelyn Cheng",
+            "title": "Nvidia will reportedly sell new chips to China that still meet U.S. rules - CNBC",
+            "description": "U.S. chipmaking giant Nvidia has reportedly found a way to sell high-end chips to Chinese companies — while remaining compliant with U.S. restrictions.",
+            "url": "https://www.cnbc.com/2023/11/10/nvidia-will-reportedly-sell-new-chips-to-china-that-still-meet-us-rules.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107115580-16626572852022-09-08t170021z_1721239977_rc29ow86zrac_rtrmadp_0_usa-china-gpu-biren.jpeg?v=1698182014&w=1920&h=1080",
+            "publishedAt": "2023-11-10T08:28:02Z",
+            "content": "The logo of Nvidia Corporation is seen during the annual Computex computer exhibition in Taipei, Taiwan, May 30, 2017.\r\nBEIJING U.S. chipmaking giant Nvidia has reportedly found a way to sell high-en… [+3408 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Shreyashi Sanyal",
+            "title": "South Korea outperforms for the week as Asia markets fall on Powell comments - CNBC",
+            "description": "Asia-Pacific markets opened softer amid a downbeat tone set by U.S. markets overnight.",
+            "url": "https://www.cnbc.com/2023/11/10/live-updates-asia-markets-set-for-declines-after-powell-comments-.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107132230-1665444692419-gettyimages-1237689867-JAPAN_STOCK.jpeg?v=1687304203&w=1920&h=1080",
+            "publishedAt": "2023-11-10T07:59:00Z",
+            "content": "Federal Reserve Governor Michelle Bowman said Thursday she still expects interest rates to rise but supported the decision earlier this month to hold.\r\n\"There is an unusually high level of uncertaint… [+1172 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "KABC-TV"
+            },
+            "author": null,
+            "title": "Sacramento Sheriff Jim Cooper calls out Target for restrictions on shoplifting enforcement - KABC-TV",
+            "description": "At a time of increasingly brazen retail theft, one California sheriff is calling out Target for what he describes as a lack of cooperation with law enforcement.",
+            "url": "https://abc7.com/target-sheriff-jim-cooper-shoplifting-retail-theft/14037729/",
+            "urlToImage": "https://cdn.abcotvs.com/dip/images/12466577_111722-kabc-raw-target-retail-theft-vid.jpg?w=1600",
+            "publishedAt": "2023-11-10T05:58:35Z",
+            "content": "SACRAMENTO, Calif. (KABC) -- At a time of increasingly brazen retail theft, one California sheriff is calling out Target for what he describes as a lack of cooperation with law enforcement.\r\nSacramen… [+1495 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WCVB Boston"
+            },
+            "author": "Todd Kazakiewich",
+            "title": "'Critical' work needed in MBTA tunnels that support streets in downtown Boston, GM Eng says - WCVB Boston",
+            "description": "Repairing the tunnels will require another shutdown of the trunk of the Green Line before the end of the year, Eng said. It's part of a new repair plan that will stretch through 2024.",
+            "url": "https://www.wcvb.com/article/mbta-speed-restrictions-plan-green-line-tunnel-repair/45788492",
+            "urlToImage": "https://kubrick.htvapps.com/vidthumb/images/green-line-train-1548715733.png?crop=1.00xw:0.980xh;0,0&resize=1200:*",
+            "publishedAt": "2023-11-10T03:43:00Z",
+            "content": "BOSTON —Summer inspections of MBTA tunnels revealed that work is required on subway structures that run under downtown Boston streets, MBTA General Manager Phillip Eng said during a presentation Thur… [+2818 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Raffaele Huang, Liza Lin, Salvador Rodriguez",
+            "title": "Meta Strikes Deal to Return to China After 14 Years - WSJ - The Wall Street Journal",
+            "description": "Chinese videogame maker Tencent agrees to start selling a new lower-cost headset from Meta late next year",
+            "url": "https://www.wsj.com/tech/meta-strikes-deal-to-return-to-china-after-14-years-9c6012a9",
+            "urlToImage": "https://images.wsj.net/im-883604/social",
+            "publishedAt": "2023-11-10T03:31:15Z",
+            "content": "SINGAPOREMeta Platforms has struck a preliminary deal to sell a new, lower-priced version of its virtual-reality headset in China, \r\nregaining a foothold among consumers in the country 14 years after… [+543 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Indonesia's US$108 million floating solar power plant - South China Morning Post",
+            "description": "Subscribe to our YouTube channel for free here: https://sc.mp/subscribe-youtubeRead more about Indonesia: https://sc.mp/gwr6The largest floating solar power ...",
+            "url": "https://www.youtube.com/watch?v=ufQC0vDjQwc",
+            "urlToImage": "https://i.ytimg.com/vi/ufQC0vDjQwc/maxresdefault.jpg",
+            "publishedAt": "2023-11-10T03:23:40Z",
+            "content": null
+        }
+    ]
+}
