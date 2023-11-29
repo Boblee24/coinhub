@@ -1,8 +1,9 @@
 import React from 'react'
+import Images from '../Images'
 
 const Helphero = () => {
   return (
-    <div className='helphero'>
+    <div className='helphero bg-center bg-no-repeat h-screen' style={{backgroundImage:`url(${Images.help_hero})`}}>
         <div className='help_hero_note'>
             <h4>Support Center</h4>
             <h2>Welcome to the Tradiant Support Center, Can I help you?</h2>

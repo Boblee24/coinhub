@@ -1,10 +1,11 @@
 import React from 'react'
+import Images from '../Images'
 
 const Features = () => {
   return (
     <div className='feature'>
         <div>
-            <div className='left'>Imaggeggegegg</div>
+            <div className='left'><img src={Images.girlwithphone} alt='girlwith'/></div>
             <div className='right'>
                 <h4>OUR FEATURES</h4>
                 <h3>Receive update market quickly everytime</h3>
@@ -13,7 +14,7 @@ const Features = () => {
             </div> 
         </div>
         <div>
-            <div className='left'>Imaggeggegegg</div>
+            <div className='left'><img src={Images.videosystem} alt='videosystem'/></div>
             <div className='right'>
                 <h4>OUR FEATURES</h4>
                 <h3>Receive update market quickly everytime</h3>

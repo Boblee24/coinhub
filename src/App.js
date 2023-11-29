@@ -1,4 +1,5 @@
 import './App.css';
+import "./style1.css"
 import {useState} from 'react'
 import {useNavigate, Route, Routes} from 'react-router-dom'
 import Header from './components/Header';
@@ -47,7 +48,7 @@ function App() {
     handleClick(newsId, VideosArray, setClickedVideo)
   }
   return (
-    <div className="app">
+    <div className=" bg-[#FFFFFF] app">
       <QueryClientProvider client={client}>
       <Header/>
       <Routes>

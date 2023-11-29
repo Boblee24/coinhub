@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../logo.svg'
 
 const Header = () => {
   return (
-    <div className='header'>
-        <div className='logo_links'>
-             <Link to="/" >
-                <div className='logo'></div>
-                <h6>SOFT</h6>
+    <div className='bg-[#FFFFFF] flex'>
+        <div className='flex logo_links'>
+             <Link to="/" className='flex' >
+                <img src={logo} alt='logo'/>
+                <h6 className='text-[#074C83]'>Coinhub</h6>
             </Link>
             <div>
                 <ul>
