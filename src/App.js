@@ -17,8 +17,17 @@ import Newsfall from './pages/Newsfall';
 import Credits from './components/Credits';
 import Footer from './components/Footer';
 import Journeyfall from './pages/Journeyfall';
+import Harmbuger from './components/harmbuger';
+
 function App() {
   const client = new QueryClient({})
+
+  //navigation of sidebar
+  const [toggle, setToggle] = useState(false)
+  const handleHarmbugerclick = () => {
+     setToggle(!toggle)
+      // console.log('Hekllo weosd')
+  }
 
   const navigate = useNavigate()
   const [clickedArticle, setClickedArticle] = useState("");
@@ -48,39 +57,49 @@ function App() {
     handleClick(newsId, VideosArray, setClickedVideo)
   }
   return (
-    <div className=" bg-[#FFFFFF] app">
+    <div className=" bg-[#FFFFFF] app relative">
       <QueryClientProvider client={client}>
-      <Header/>
-      <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="blog" element={<Blog articles ={updateData} checkId ={checkId}/>}/>
-            <Route path="newsfall" element ={<Newsfall 
-              onclick={handleClick} 
-              clickedArticle = {clickedArticle}
-              updateData = {updateData}
-              setClickedArticle = {setClickedArticle}
-            />}
-            />
-            <Route path="about" element={<About/>}/>
-            <Route path="journey" element={<Journey
-              VideoArray = {VideoArray}
-              checkVideo = {checkVideo}
-            />}
-            />
-            <Route path="journeyfall" element={<Journeyfall 
-              onclick={handleClick} 
-              clickedVideo = {clickedVideo}
-              VideoArray = {VideoArray}
-              setClickedVideo = {setClickedVideo}
-            />}
-            />
-            <Route path="why_us" element={<WHY_US/>}/>
-            <Route path="help" element={<Help/>}/>
-            <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
-          </Routes>
+        {/* <div> */}
+          <Header
+            handleHarmbugerclick={handleHarmbugerclick} 
+            toggle={toggle}
+          />
+          <Harmbuger 
+            toggle={toggle} 
+            handleHarmbugerclick={handleHarmbugerclick} 
+          />
+        {/* </div> */}
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="blog" element={<Blog articles ={updateData} checkId ={checkId}/>}/>
+          <Route path="newsfall" element ={<Newsfall 
+            onclick={handleClick} 
+            clickedArticle = {clickedArticle}
+            updateData = {updateData}
+            setClickedArticle = {setClickedArticle}
+          />}
+          />
+          <Route path="about" element={<About/>}/>
+          <Route path="journey" element={<Journey
+            VideoArray = {VideoArray}
+            checkVideo = {checkVideo}
+          />}
+          />
+          <Route path="journeyfall" element={<Journeyfall 
+            onclick={handleClick} 
+            clickedVideo = {clickedVideo}
+            VideoArray = {VideoArray}
+            setClickedVideo = {setClickedVideo}
+          />}
+          />
+          <Route path="why_us" element={<WHY_US/>}/>
+          {/* <Route path='hello' element={<Harmbuger/>}/> */}
+          <Route path="help" element={<Help/>}/>
+          <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
+        </Routes>
         <Credits/>
         <Footer/>
-        </QueryClientProvider>
+      </QueryClientProvider>
     </div>
   );
 }

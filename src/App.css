@@ -41,6 +41,6 @@ body {
   margin: 0;
 }
 
-.app img {
+.app img:not(.soft) {
   width: 100%;
 }

@@ -3,6 +3,7 @@
 // import Footer from '../components/Footer';
 import Bloghero from '../components/Bloghero';
 import News from '../components/News';
+import Newsletter from '../components/Newsletter';
 // import { useQuery } from '@tanstack/react-query';
 // import Axios from 'axios';
 // import Newsfall from './Newsfall';
@@ -14,12 +15,10 @@ const Blog = (props) => {
     <div className='blog'>
       <Bloghero/>
       <News articles = {props.articles} checkId = {props.checkId}/>
-      {/* <Outlet/> */}
-      
+      <Newsletter/>
     </div>
   )
-  // {/* <Newsfall articles = {updateData} onClick={handleClick} clickedArticle ={clickedArticle}
-  //   />  */}
+
 }
 
 export default Blog

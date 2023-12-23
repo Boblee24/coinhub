@@ -1,10 +1,13 @@
+
 :root {
     --primary-500 : #2196F3;
 
     --fs-h2 : 3.65rem;
-    --fs-h3 : 2rem;
-    --fs-h4 : 1.1rem;
+    --fs-h3 : 1.9rem;
+    --fs-h4 : .9rem;
     --fs-h5 : 1.75rem;
+    --fs-h6 : 0.75rem;
+    --fs-h1 : 1.15rem;
 }
 .app h2 {
     /* color: var(--primary-500); */
@@ -13,16 +16,59 @@
 .app h4{
     font-size: var(--fs-h4);
 }
+.app h6 {
+    font-size: var(--fs-h6);
+}
 .app h3 {
     font-size: var(--fs-h3);
 }
 .app h5{
     font-size: var(--fs-h5);
 }
-.app button, .home a, .newsletter input[type="submit"]  {
+.app h1{
+    font-size: var(--fs-h1);
+}
+.app button, .home a, .newsletter input[type="submit"], .login a  {
     padding: .5rem 1rem;
     background-color: var(--primary-500);
     border-radius: .5rem;
+}
+button.remove {
+    background: none;
+    color: #2196F3;
+    padding: .3rem 0;
+}
+.icon_contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.slick-slide > div {
+    /* background-color: red; */
+    z-index: 1;
+}
+
+.brands .slick-prev, .brands .slick-next {
+  display: none !important;
+}
+.testimonial .slick-prev, .testimonial .slick-next {
+  display: none !important;
+}
+.newsfall h2 {
+    font-size: 1rem;
+}
+.sidebar {
+    /* overflow-y:auto; */
+    /* height: 100vh;\ */
+}
+.top_value h3 {
+    font-size: var(--fs-h3);
+    /* color: red; */
+}
+.sidebar, .main-story {
+    width: 100vh;
+    background-color: yellow;
 }
 @media screen and (min-width: 600px) {
     :root {

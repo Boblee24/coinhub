@@ -1,0 +1,30 @@
+img.image {
+    width: 35px !important;
+}
+.header {
+    inset: 0;
+    transition-delay: .5;
+}
+[data-transform = 'false']{
+    /* transform: translateY(-100%); */
+    transition: 1s ease-in;
+    z-index: -1;
+    opacity: 0;
+}
+[data-transform='true'] {
+    /* transform: translateY(0); */
+    opacity: 1;
+    transition: 1s;
+  }
+.header ul li {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.logo_links {
+    width: 100%;
+}
+.social{
+    transform: translate(-50%, -50%);
+    margin-top: 4rem;
+    gap: 2rem;
+}

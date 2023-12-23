@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 
 const Journeyfall = (props) => {
-    console.log(props.VideoArray);
+    // console.log(props.VideoArray);
     const journey = () => {
         return(
             <div>

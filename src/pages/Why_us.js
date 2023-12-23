@@ -5,6 +5,7 @@ import WHY_HERO from '../components/Why_hero'
 import WHY_US_WHY_US from '../components/Why_us_Why_us'
 import Testimonial from '../components/Testimonial'
 import WITH_US from '../components/With_us'
+import Newsletter from '../components/Newsletter'
 
 const WHY_US = () => {
   return (
@@ -13,6 +14,7 @@ const WHY_US = () => {
       <WHY_US_WHY_US/>
       <Testimonial/>
       <WITH_US/>
+      <Newsletter/>
     </div>
   )
 }

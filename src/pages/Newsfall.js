@@ -1,6 +1,7 @@
 import React from 'react'
 // import {nanoid} from 'nanoid'
 // import data from '../data.json'
+import Split from 'react-split'
 
 const Newsfall = (props) => {
   
@@ -20,14 +21,28 @@ const Newsfall = (props) => {
   };
   return (
     <div className='newsfall'>
-            <section>
-              <h3>{props.clickedArticle.title}</h3>
-              <h5>This is the fucking Date</h5>
-              <img src= {props.clickedArticle.urlToImage} alt='bollocks'/>
-              <p>{props.clickedArticle.content}</p>
-            </section>
-            <h1>HELLO WORLD</h1>
-            {newsfall()}
+            <Split sizes={[75, 25]}
+              // minSize={100}
+              // expandToMin={false}
+              // gutterSize={10}
+              // gutterAlign="center"
+              // snapOffset={30}
+              // dragInterval={1}
+              direction="horizontal"
+              // cursor="col-resize"
+              className='flex'
+              >
+              <section className='main-story'>
+                <h3>{props.clickedArticle.title}</h3>
+                <h5>This is the fucking Date</h5>
+                <img src= {props.clickedArticle.urlToImage} alt='bollocks'/>
+                <p>{props.clickedArticle.content}</p>
+              </section>
+              <section className='bg-[red] sidebar'>
+                <h1>HELLO WORLD</h1>
+                {newsfall()}
+              </section>
+            </Split>
     </div>
   )
 }

@@ -8,7 +8,12 @@ const Images = {
     help_hero : require('./help-hero.jpg'),
     journey_hero : require('./journey-hero.png'),
     why_hero : require('./why-hero.png'),
-    videosystem : require('./videosystem.png')
+    videosystem : require('./videosystem.png'),
+    logo : require('./logo.svg'),
+    appstore : require('./appstore.png'),
+    playstore : require('./playstore.png'),
+    mission : require('./mission.png'),
+    vision: require('./vision.png')
 
 }
 

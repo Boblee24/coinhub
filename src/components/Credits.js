@@ -1,20 +1,30 @@
 import React from 'react'
+import Images from '../Images'
+import logo from '../logo.svg'
+import { Link } from 'react-router-dom'
+import { FaRegEnvelope} from "react-icons/fa";
+import { CiLocationOn } from "react-icons/ci";
+import { FiPhone } from "react-icons/fi";
+
 
 const Credits = () => {
   return (
-    <div className='credit'>
-        <div className='credit_left'>
-            <div className='logo'>image<h1>COINHUB</h1></div>
+    <div className='credit flex flex-col m-4'>
+        <div className=''>
+            <Link to="/" className='flex items-start' >
+                <img src={logo} className='soft w-14 h-14' alt='logo'/>
+                <h6 className='text-[#074C83]'>Coinhub</h6>
+            </Link>
             <p>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
             <div className='download'>
-                <h6>Unduh Aplikasi</h6>
-                <div>
-                    <a href="/"><img alt='download' src="https://i.ibb.co/ZYLgVs3/google-play" /></a>
-                    <a href="/"><img src="https://i.ibb.co/ZYLgVs3/google-play" alt='download'/></a>
+                <h6 className='my-2'>Unduh Aplikasi</h6>
+                <div className='flex gap-3'>
+                    <a href="/"><img alt='download' src={Images.appstore} /></a>
+                    <a href="/"><img src={Images.playstore} alt='download'/></a>
                 </div>
             </div>
         </div>
-        <div className='right'>
+        <div className='flex flex-wrap gap-5 my-4'>
             <div className='footer_right'>
                 <h5>Companies</h5>
                 <ul>
@@ -46,9 +56,9 @@ const Credits = () => {
             <div className='footer_right'>
                 <h5>Contact US</h5>
                 <ul>
-                    <li><span><img alt="Helo" src=''/></span>0903 603 5324</li>
-                    <li><span><img alt="Helo" src=''/></span>Journey</li>
-                    <li><span><img alt="Helo" src=''/></span>Bobleeswaggs123@gmail.com</li>
+                    <li className='icon_contact'><FiPhone/>0903 603 5324</li>
+                    <li className='icon_contact'><CiLocationOn/>Journey</li>
+                    <li className='icon_contact'><FaRegEnvelope/>Boblees@gmail.com</li>
                 </ul>
             </div>
         </div>
