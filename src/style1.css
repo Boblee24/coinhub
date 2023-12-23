@@ -58,10 +58,7 @@ button.remove {
 .newsfall h2 {
     font-size: 1rem;
 }
-.sidebar {
-    /* overflow-y:auto; */
-    /* height: 100vh;\ */
-}
+
 .top_value h3 {
     font-size: var(--fs-h3);
     /* color: red; */

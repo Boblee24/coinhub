@@ -30,11 +30,11 @@ const Header = (props) => {
                 </div>
                 <div className='relative bg-[red]  inset-0'>
                     <div className='social absolute flex justify-between bottom-[6rem] h-full top-2/4 left-2/4' >
-                        <a href=''><FaFacebookSquare className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href='' ><FaXTwitter className='w-8 h-8 text-[#5D7285]' /></a>
-                        <a href=''><FaWhatsappSquare className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href=''><FaLinkedin className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href=''><FaGithub className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://www.google.com'><FaFacebookSquare className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://www.google.com' ><FaXTwitter className='w-8 h-8 text-[#5D7285]' /></a>
+                        <a href='https://www.google.com'><FaWhatsappSquare className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://www.google.com'><FaLinkedin className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://www.google.com'><FaGithub className='w-8 h-8 text-[#5D7285]'/></a>
                     </div>
                 </div>
             </div>
