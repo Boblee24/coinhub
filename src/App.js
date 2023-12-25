@@ -18,6 +18,7 @@ import Credits from './components/Credits';
 import Footer from './components/Footer';
 import Journeyfall from './pages/Journeyfall';
 import Harmbuger from './components/harmbuger';
+// import Heading from './pages/Heading';
 
 function App() {
   const client = new QueryClient({})
@@ -69,6 +70,7 @@ function App() {
             handleHarmbugerclick={handleHarmbugerclick} 
           />
         {/* </div> */}
+        <div className=''>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="blog" element={<Blog articles ={updateData} checkId ={checkId}/>}/>
@@ -97,6 +99,7 @@ function App() {
           <Route path="help" element={<Help/>}/>
           <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
+        </div>
         <Credits/>
         <Footer/>
       </QueryClientProvider>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HOME_HERO = () => {
   return (
-    <div className='bg-[#F5F5F5] home'>
+    <div className='bg-[#F5F5F5] home '>
         <div className='home_hero_left'>
             <div className='home_hero_left_note'>
                 <p><span className='text-[#2196F3]'>Smart Investation</span></p>

@@ -14,7 +14,7 @@ img.image {
 [data-transform='true'] {
     /* transform: translateY(0); */
     opacity: 1;
-    transition: 1s;
+    transition: .5s;
   }
 .header ul li {
     padding: 10px 0;

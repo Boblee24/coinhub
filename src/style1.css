@@ -59,10 +59,12 @@ button.remove {
     font-size: 1rem;
 }
 
+
 .top_value h3 {
     font-size: var(--fs-h3);
     /* color: red; */
 }
+
 .sidebar, .main-story {
     width: 100vh;
     background-color: yellow;

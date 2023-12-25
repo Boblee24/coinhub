@@ -7,15 +7,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Header = (props) => {
   return (
-    <div className='bg-[#FFFFFF] flex fixed  p-4 header z-10 ' data-transform={props.toggle}>
+    <div className='bg-[#FFFFFF] flex fixed  p-3 header z-10 ' data-transform={props.toggle}>
         <div className='flex flex-col logo_links'>
-            <Link to="/" className='flex items-center justify-start w-full' >
+            <Link to="/" onClick={props.handleHarmbugerclick} className='flex items-center justify-start w-full' >
                 <img className='image' src={logo} alt='logo'/>
                 <h1 className='text-[#074C83] px-3 text-lg'>Coinhub</h1>
             </Link>
             <div>
                 <div>
-                    <ul className='flex justify-center flex-col py-4 items-start'>
+                    <ul className='flex justify-center flex-col py-7 items-start'>
                         <li><Link to="/about" onClick={props.handleHarmbugerclick}>About</Link></li>
                         <li><Link to="/why_us" onClick={props.handleHarmbugerclick}>Why Us</Link></li>
                         <li><Link to="/blog" onClick={props.handleHarmbugerclick}>Blog</Link></li>

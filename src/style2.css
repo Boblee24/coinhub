@@ -1,6 +1,7 @@
 .button-three {
     --button-color: black;
     overflow: hidden;
+    /* color: black; */
   }
   
   .button-three .hamburger {
@@ -13,7 +14,7 @@
   }
   
   .button-three .line {
-    transition: 1s;
+    transition: .5s;
     stroke-dasharray: 60 31 60 300;
   }
   
@@ -22,7 +23,7 @@
     stroke-dashoffset: -90;
   }
   button{
-    background-color: white !important;
+    background-color: unset !important;
     padding: 0 !important;
   }
 
