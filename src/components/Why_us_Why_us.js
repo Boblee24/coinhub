@@ -1,4 +1,8 @@
 import React from 'react'
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import { MdEqualizer } from "react-icons/md";
+import { PiEyeglassesThin } from "react-icons/pi";
+import { FiShield } from "react-icons/fi";
 
 const WHY_US_WHY_US = () => {
   return (
@@ -23,30 +27,30 @@ const WHY_US_WHY_US = () => {
                 </div> 
             </div>
         </div>
-        <div className='additional text-center'>
+        <div className='additional text-center m-3'>
             <div className='additional_head'>
                 <h3>Additional advantages from <span className='text-[#2196F3]'>Tradiant</span></h3>
                 <p>At Tradiant, you will benefit from us, such as many conveniences in transactions, user-friendly transparency, and many others</p>
             </div>
-            <div className='additional_flex flex flex-wrap gap-4'>
-                <div className='m-auto w-[300px] border-solid border-2 border-slate-800 px-4 py-2 rounded-lg'>
-                    <img src='' alt=''/>
-                    <h4>High standards</h4>
+            <div className='additional_flex flex flex-wrap gap-4 my-7'>
+                <div className='m-auto w-[300px] border-solid border-2 border-[#C7D0D8] px-4 py-2 rounded-lg shadow-lg shadow-[#E2E7EB]'>
+                    <div className='flex justify-center items-center'><MdEqualizer size={40} color="#2196F3"/></div>
+                    <h4 className='py-2'>High standards</h4>
                     <p>At Tradiant, we have high standards, all forms of transactions will be processed professionally, so that Tradiant users feel safe and comfortable.</p>
                 </div>
-                <div className='m-auto  w-[300px]'>
-                    <img src='' alt=''/>
-                    <h4>Simplicity</h4>
+                <div className='m-auto w-[300px] border-solid border-2 border-[#C7D0D8] px-4 py-2 rounded-lg shadow-lg shadow-[#E2E7EB]'>
+                    <div className='flex justify-center items-center'><IoMdCheckmarkCircleOutline size={40} color="#2196F3"/></div>
+                    <h4 className='py-2'>Simplicity</h4>
                     <p>We guarantee the ease of transactions at Tradiant, so that users will have convenience in transactions.</p>
                 </div>
-                <div className='m-auto w-[300px]'>
-                    <img src='' alt=''/>
-                    <h4>Transparency</h4>
+                <div className='m-auto w-[300px] border-solid border-2 border-[#C7D0D8] px-4 py-2 rounded-lg shadow-lg shadow-[#E2E7EB]'>
+                    <div className='flex justify-center items-center'><PiEyeglassesThin size={40} color="#2196F3"/></div>
+                    <h4 className='py-2'>Transparency</h4>
                     <p>We will report all forms of transactions as they are, transparency is very important to grow the trust of Tradiant users.</p>
                 </div>
-                <div className='m-auto w-[300px]'>
-                    <img src='' alt=''/>
-                    <h4>Invention</h4>
+                <div className='m-auto w-[300px] border-solid border-2 border-[#C7D0D8] px-4 py-2 rounded-lg shadow-lg shadow-[#E2E7EB]'>
+                    <div className='flex justify-center items-center'><FiShield size={40} color="#2196F3"/></div>
+                    <h4 className='py-2'>Invention</h4>
                     <p>Tradiant is the result of the production, refinement, or development of the original invention. It is also continuous and continuously developing in a better direction.</p>
                 </div>
             </div>
