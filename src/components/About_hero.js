@@ -4,7 +4,7 @@ import Images from '../Images'
 const ABOUT_HERO = () => {
 
   return (
-    <div className="about-hero relative bg-no-repeat bg-cover h-[100vh] m-0 p-0 bg-center" style={{backgroundImage: `url(${Images.about_hero2})`}}>
+    <div className="about-hero relative bg-no-repeat bg-cover h-[100dvh] m-0 p-0 bg-center" style={{backgroundImage: `url(${Images.about_hero2})`}}>
     <div className="about_hero_note flex justify-right items-center h-full p-2 z-20">
     <div>
       <h2 className="py-3 leading-[4rem] text-black">Global Market Leader</h2>

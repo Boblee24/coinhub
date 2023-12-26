@@ -3,10 +3,14 @@ import Images from '../Images'
 
 const WHY_HERO = () => {
   return (
-    <div className='why_hero bg-contain bg-no-repeat h-screen' style={{backgroundImage : `url(${Images.why_hero})`}}>
-        <h2><span>Easy Transaction</span> with Tradiant</h2>
-        <p>Confused about what to trade? When trading at Tradiant, you can use analytical tools from various well-known providers to get price movement reports, the latest market news, and other important information you need when trading.</p>
-        <button>Get Started</button>
+    <div className='why_hero relative bg-no-repeat bg-cover h-[100dvh] m-0 p-0 bg-center' style={{backgroundImage : `url(${Images.why_hero})`}}>
+      <div className='flex justify-center flex-col h-full p-2 z-20'>
+      <div className='text-center'>
+        <h2 className='leading-[4rem]'><span>Easy Transaction</span> with Tradiant</h2>
+        <p className='py-4'>Confused about what to trade? When trading at Tradiant, you can use analytical tools from various well-known providers to get price movement reports, the latest market news, and other important information you need when trading.</p>
+        <button className=''>Get Started</button>
+      </div>
+      </div>
     </div>
   )
 }

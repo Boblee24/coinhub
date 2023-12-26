@@ -50,7 +50,7 @@ button.remove {
     z-index: 1;
 }
 
-.brands .slick-prev, .brands .slick-next {
+.brands .slick-prev, .brands .slick-next, .about_value .slick-prev , .about_value .slick-next{
   display: none !important;
 }
 .testimonial .slick-prev, .testimonial .slick-next {
