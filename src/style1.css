@@ -2,7 +2,7 @@
 :root {
     --primary-500 : #2196F3;
 
-    --fs-h2 : 3.65rem;
+    --fs-h2 : 3.5rem;
     --fs-h3 : 1.9rem;
     --fs-h4 : .9rem;
     --fs-h5 : 1.75rem;
@@ -28,7 +28,8 @@
 .app h1{
     font-size: var(--fs-h1);
 }
-.app button, .home a, .newsletter input[type="submit"], .login a  {
+
+.app button , .home a, .newsletter input[type="submit"], .login a  {
     padding: .5rem 1rem;
     background-color: var(--primary-500);
     border-radius: .5rem;

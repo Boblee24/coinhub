@@ -22,7 +22,7 @@
     stroke-dasharray: 60 105 60 300;
     stroke-dashoffset: -90;
   }
-  button{
+  button.button-three{
     background-color: unset !important;
     padding: 0 !important;
   }

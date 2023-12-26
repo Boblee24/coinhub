@@ -13,7 +13,8 @@ const Images = {
     appstore : require('./appstore.png'),
     playstore : require('./playstore.png'),
     mission : require('./mission.png'),
-    vision: require('./vision.png')
+    vision: require('./vision.png'),
+    about_hero2: require('./about2.png')
 
 }
 
