@@ -3,7 +3,7 @@ import Images from '../Images'
 
 const Bloghero = () => {
   return (
-      <div className='blog_hero_note relative bg-no-repeat bg-cover h-[100dvh] m-0 p-0 bg-center' style={{backgroundImage: `url(${Images.blog_hero})`}}>
+      <div className='blog_hero_note relative bg-no-repeat bg-cover h-[100dvh] mb-5 p-0 bg-center' style={{backgroundImage: `url(${Images.blog_hero})`}}>
           <div className='flex justify-center flex-col h-full p-2'>
             <div>
               <h4 className='text-[#2196F3]'>Market Update</h4>
