@@ -1,9 +1,9 @@
 import React from 'react'
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import Images from '../Images';
 
 const Helphero = () => {
-  const searchIcon = <CiSearch size={20}/>
+  // const searchIcon = <CiSearch size={20}/>
   return (
     <div className='helphero relative bg-no-repeat bg-cover h-[100dvh] m-0 p-0 bg-cente' style={{backgroundImage:`url(${Images.help_hero})`}}>
         <div className="about_hero_note flex justify-right items-center h-full p-2 z-20">
