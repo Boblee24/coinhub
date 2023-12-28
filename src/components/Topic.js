@@ -1,46 +1,70 @@
 import React from 'react'
-
+import { FaRegHourglass } from "react-icons/fa6";
+import { MdOutlineEventNote } from "react-icons/md";
+import { BsPersonPlus } from "react-icons/bs";
+import { SlNotebook } from "react-icons/sl";
+import { FaChartLine } from "react-icons/fa";
+import { FcInspection } from "react-icons/fc";
+import { PiChartLineUp } from "react-icons/pi";
+import { LuDownload } from "react-icons/lu";
+import Images from '../Images';
 const Topic = () => {
   return (
     <div className='topic'>
-        <h3>Favorite Help Topic</h3>
-        <div className='topic'>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+        <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
+        <div className='grid grid-cols-2 gap-4 m-4'>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <FaRegHourglass size={30}/>
+                </div>
+                <h4 className='w-[50px]'>About Tradiant</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <MdOutlineEventNote size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Beginner's Guide</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <BsPersonPlus size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Account Opening</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <SlNotebook size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Trading Education</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <FaChartLine size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Trading Tools</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <FcInspection size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Special Promotion</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <PiChartLineUp size={30}/>
+                </div>
+                <h4 className='w-[50px]'>General Trading</h4>
             </div>
-            <div className='topic'>
-                <img src='' alt='soft'/>
-                <h4>About Tradiant</h4>
+            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                <div className='text-[#2196F3] flex justify-center'>
+                    <LuDownload size={30}/>
+                </div>
+                <h4 className='w-[50px]'>Download Platform</h4>
             </div>
         </div>
         <section className='video'>
-            <h3>Video Tutorial</h3>
-            <p>Learn how to use our platform by watching the following set of video tutorials.</p>
+            <h3 className='text-center'>Video Tutorial</h3>
+            <p className='text-center'>Learn how to use our platform by watching the following set of video tutorials.</p>
             <div className='videos'>
                 <div className='video'>
                     <video src=''/>
@@ -56,17 +80,17 @@ const Topic = () => {
                 </div>
             </div>
         </section>
-        <section className='faeture'>
-        <div className='left'>Imaggeggegegg</div>
-            <div className='right'>
+        <section className='flex-col flex justify-center px-[5%] gap-5'>
+            <img src={Images.mission} alt='mission'/>
+            <div className='flex flex-col'>
                 <h3>Glosarium Trading</h3>
                 <p>Day Trading is Refers to a certain financial transaction position which is opened and closed on the same day (not overnight).</p>
-                <button>Learn More</button>
+                <button className='self'>Learn More</button>
             </div> 
         </section>
         <footer>
         <h3>Still haven't found the answer to your question?</h3>
-        <button>Contact us</button>
+        <button className=''>Contact us</button>
         </footer>
     </div>
   )
