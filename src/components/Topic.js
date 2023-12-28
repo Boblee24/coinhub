@@ -8,7 +8,7 @@ import { FcInspection } from "react-icons/fc";
 import { PiChartLineUp } from "react-icons/pi";
 import { LuDownload } from "react-icons/lu";
 import Images from '../Images';
-const Topic = () => {
+const Topic = (props) => {
   return (
     <div className='topic'>
         <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
@@ -61,36 +61,26 @@ const Topic = () => {
                 </div>
                 <h4 className='w-[50px]'>Download Platform</h4>
             </div>
-        </div>
-        <section className='video'>
-            <h3 className='text-center'>Video Tutorial</h3>
-            <p className='text-center'>Learn how to use our platform by watching the following set of video tutorials.</p>
-            <div className='videos'>
-                <div className='video'>
-                    <video src=''/>
-                    <h5>How to optimize analysis tools and Artificial Intelligence in Tradiant</h5>
-                </div>
-                <div className='video'>
-                    <video src=''/>
-                    <h5>How to optimize analysis tools and Artificial Intelligence in Tradiant</h5>
-                </div>
-                <div className='video'>
-                    <video src=''/>
-                    <h5>How to optimize analysis tools and Artificial Intelligence in Tradiant</h5>
-                </div>
+    </div>
+    <div className='grid grid-cols-1 gap-4 m-4 items-stretch'>
+          {props.VideoArray.videos.map((videoarray) => (
+            <div key={videoarray.article_id}>
+              <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
+              <h2>{videoarray.title}</h2>
             </div>
-        </section>
-        <section className='flex-col flex justify-center px-[5%] gap-5'>
+          ))}
+    </div>
+        <section className='flex-col flex justify-center px-[5%] gap-7 py-4 bg-[#F1F9FF]'>
             <img src={Images.mission} alt='mission'/>
-            <div className='flex flex-col'>
-                <h3>Glosarium Trading</h3>
+            <div className='flex flex-col gap-3'>
+                <h3 className='leading-[1rem] text-[1.7rem]'>Glosarium Trading</h3>
                 <p>Day Trading is Refers to a certain financial transaction position which is opened and closed on the same day (not overnight).</p>
-                <button className='self'>Learn More</button>
+                <button className='self-start'>Learn More</button>
             </div> 
         </section>
-        <footer>
-        <h3>Still haven't found the answer to your question?</h3>
-        <button className=''>Contact us</button>
+        <footer className='flex flex-col p-3'>
+        <h3 className='text-[1.8rem] text-center'>Still haven't found the answer to your question?</h3>
+        <button className='self-center my-3'>Contact us</button>
         </footer>
     </div>
   )

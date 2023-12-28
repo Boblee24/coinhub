@@ -1,16 +1,12 @@
 import React from 'react'
-import Credits from '../components/Credits'
-import Footer from '../components/Footer'
 import Helphero from '../components/Helphero'
 import Topic from '../components/Topic'
 
-const Help = () => {
+const Help = (props) => {
   return (
     <div className='help'>
       <Helphero/>
-      <Topic/>
-      <Credits/>
-      <Footer/>
+      <Topic VideoArray = {props.VideoArray}/>
     </div>
   )
 }

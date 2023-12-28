@@ -9,10 +9,10 @@ import { FiPhone } from "react-icons/fi";
 
 const Credits = () => {
   return (
-    <div className='credit flex flex-col m-4'>
+    <div className='credit flex flex-col p-4 bg-[#EFF2F4]'>
         <div className=''>
-            <Link to="/" className='flex items-start' >
-                <img src={logo} className='soft w-14 h-14' alt='logo'/>
+            <Link to="/" className='flex items-center ' >
+                <img src={logo} className='soft w-11 h-11' alt='logo'/>
                 <h6 className='text-[#074C83]'>Coinhub</h6>
             </Link>
             <p>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>

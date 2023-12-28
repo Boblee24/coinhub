@@ -95,8 +95,9 @@ function App() {
           />}
           />
           <Route path="why_us" element={<WHY_US/>}/>
-          {/* <Route path='hello' element={<Harmbuger/>}/> */}
-          <Route path="help" element={<Help/>}/>
+          <Route path="help" element={<Help
+            VideoArray = {VideoArray}/>}
+          />
           <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
         </div>
