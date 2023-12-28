@@ -10,7 +10,7 @@ const News = (props) => {
         }
     }
     const newsArray = props.articles.map((article) => (
-        <div className='sub_news rounded-xl  h-full' key={article.article_id}>
+        <div className='sub_news rounded-xl self-auto' key={article.article_id}>
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
                 <div className='flex justify-between'>
@@ -24,7 +24,7 @@ const News = (props) => {
         </div>
     ))
   return (
-    <div className='news grid grid-cols-2 gap-2 m-2'>
+    <div className='news grid grid-cols-2 gap-2 m-2 items-stretch '>
         {newsArray}
     </div>
   ) 

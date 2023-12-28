@@ -14,7 +14,8 @@ const Images = {
     playstore : require('./playstore.png'),
     mission : require('./mission.png'),
     vision: require('./vision.png'),
-    about_hero2: require('./about2.png')
+    about_hero2: require('./about2.png'),
+    girlslooking: require('./girlslooking.png')
 
 }
 
