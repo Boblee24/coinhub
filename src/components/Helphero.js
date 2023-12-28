@@ -11,7 +11,7 @@ const Helphero = () => {
               <h4 className='text-[#2196F3] py-4' >Support Center</h4>
               <h2 className='text-[2rem]'>Welcome to the Tradiant Support Center, Can I help you?</h2>
               <textarea
-                placeholder={searchIcon}
+                placeholder='Search for something here'
                 className="w-5/6">
               </textarea>
           </div>
