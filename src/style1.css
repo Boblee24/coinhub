@@ -1,5 +1,10 @@
 
+:root {
+    --primary-500 : #2196F3;
+}
 /* :root {
+    --primary-500 : #2196F3;
+    --primary-500 : #2196F3;
     --primary-500 : #2196F3;
 
     --fs-h2 : 3.3rem;
@@ -67,13 +72,14 @@ button.remove {
     width: 100vh;
     background-color: yellow;
 }
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     :root {
-      --fs-h6: 18px; /* Change font size for screens wider than 600px */
+      --fs-h6: 18px;
     }
   }
 @media screen and (min-width: 768px) {
     :root {
-      --font-size: 20px; /* Change font size for screens wider than 768px */
-    }
+      --font-size: 20px; 
+    
   }
+} */
