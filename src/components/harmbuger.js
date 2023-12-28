@@ -17,9 +17,9 @@ const Harmbuger = (props) => {
     <div className=' flex fixed z-20 justify-between bg-slate-400 w-full p-2'>
         <Heading handleHarmbugerclick={props.handleHarmbugerclick} toggle ={props.toggle}/>
 
-        <button onClick={props.handleHarmbugerclick} className="" class="button-three " aria-controls="primary-navigation" aria-expanded={props.toggle}>
-    <svg stroke="var(--button-color)" fill="none" class="hamburger" viewBox="-10 -10 120 120" width="45">
-      <path class="line" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70">
+        <button onClick={props.handleHarmbugerclick} className="button-three" aria-controls="primary-navigation" aria-expanded={props.toggle}>
+    <svg stroke="var(--button-color)" fill="none" className="hamburger" viewBox="-10 -10 120 120" width="45">
+      <path className="line" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70">
       </path>
     </svg>
   </button>

@@ -1,14 +1,20 @@
 import React from 'react'
-import Images from '../Images'
+import { CiSearch } from "react-icons/ci";
+import Images from '../Images';
 
 const Helphero = () => {
+  const searchIcon = <CiSearch size={20}/>
   return (
-    <div className='helphero bg-center bg-no-repeat h-screen' style={{backgroundImage:`url(${Images.help_hero})`}}>
-        <div className='help_hero_note'>
-            <h4>Support Center</h4>
-            <h2>Welcome to the Tradiant Support Center, Can I help you?</h2>
-            <p>There are a number of key points for Bitcoin to strengthen again, closely tied to the Fed's policy, if the US central bank fails to control inflation and the economy heads into recession. </p>
-            <textarea placeholder='Enter the topic you want to search for'></textarea>
+    <div className='helphero relative bg-no-repeat bg-cover h-[100dvh] m-0 p-0 bg-cente' style={{backgroundImage:`url(${Images.help_hero})`}}>
+        <div className="about_hero_note flex justify-right items-center h-full p-2 z-20">
+          <div className='help_hero_note'>
+              <h4 className='text-[#2196F3] py-4' >Support Center</h4>
+              <h2 className='text-[2rem]'>Welcome to the Tradiant Support Center, Can I help you?</h2>
+              <textarea
+                placeholder={searchIcon}
+                className="w-5/6">
+              </textarea>
+          </div>
         </div>
     </div>
   )
