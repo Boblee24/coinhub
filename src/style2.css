@@ -12,6 +12,9 @@
     translate: 2px -2px;
     rotate: 0.125turn;
   }
+  .button-three[aria-expanded="false"] .heading .head{
+    display:none !important;
+  }
   
   .button-three .line {
     transition: .5s;

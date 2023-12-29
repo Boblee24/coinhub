@@ -9,9 +9,9 @@ const Header = (props) => {
   return (
     <div className='bg-[#FFFFFF] flex fixed  p-3 header z-10 ' data-transform={props.toggle}>
         <div className='flex flex-col logo_links'>
-            <Link to="/" onClick={props.handleHarmbugerclick} className='flex items-center justify-start w-full' >
+            <Link to="/" onClick={props.handleHarmbugerclick} className=' flex items-center justify-start w-full' >
                 <img className='image' src={logo} alt='logo'/>
-                <h1 className='text-[#074C83] px-3 text-lg'>Coinhub</h1>
+                <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
             </Link>
             <div>
                 <div>

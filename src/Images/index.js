@@ -23,6 +23,7 @@ const Images = {
     protonet: require('./protonet.png'),
     open: require('./open.png'),
     sponsor: require('./sponsor.png'),
+    home: require('./home.png'),
 
 }
 
