@@ -63,6 +63,10 @@ const Topic = (props) => {
             </div>
     </div>
     <div className='grid grid-cols-1 gap-4 m-4 items-stretch'>
+        <div className='text-center'>
+            <h3 className=' text-[1.7rem]'>Video Tutorial</h3>
+            <p>Learn how to use our platform by watching the following set of Tutorial videos</p>
+        </div>
           {props.VideoArray.videos.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>

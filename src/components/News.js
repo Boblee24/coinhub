@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const News = (props) => {
     const trimWords = (toBeTrimmed, words) => {
@@ -6,11 +6,11 @@ const News = (props) => {
         if(trimedString.length > words){
             return `${trimedString.slice(0, words-3)}...`
         }else{
-            return toBeTrimmed
+            return toBeTrimmed;
         }
     }
     const newsArray = props.articles.map((article) => (
-        <div className='sub_news rounded-xl self-auto' key={article.article_id}>
+        <div className='sub_news rounded-xl self-auto no' key={article.article_id}>;
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
                 <div className='flex justify-between'>
