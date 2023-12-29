@@ -1,7 +1,6 @@
 .button-three {
     --button-color: black;
     overflow: hidden;
-    /* color: black; */
   }
   
   .button-three .hamburger {

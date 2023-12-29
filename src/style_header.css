@@ -6,13 +6,11 @@ img.image {
     transition-delay: .5;
 }
 [data-transform = 'false']{
-    /* transform: translateY(-100%); */
     transition: .5s ease-in;
     z-index: -1;
     opacity: 0;
 }
 [data-transform='true'] {
-    /* transform: translateY(0); */
     opacity: 1;
     transition: .5s ease-out;
   }

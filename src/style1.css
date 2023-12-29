@@ -20,7 +20,6 @@ button.remove, a.remove {
 }
 
 .slick-slide > div {
-    /* background-color: red; */
     z-index: 1;
 }
 
@@ -37,7 +36,6 @@ button.remove, a.remove {
 
 .top_value h3 {
     font-size: var(--fs-h3);
-    /* color: red; */
 }
 
 

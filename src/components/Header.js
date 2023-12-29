@@ -21,7 +21,6 @@ const Header = (props) => {
                         <li><Link to="/blog" onClick={props.handleHarmbugerclick}>Blog</Link></li>
                         <li><Link to="/journey" onClick={props.handleHarmbugerclick}>Journey</Link></li>
                         <li><Link to="/help" onClick={props.handleHarmbugerclick}>Help</Link></li>
-                        {/* <li><Link to="/hello" onClick={props.handleHarmbugerclick}>Harmbuger</Link></li> */}
                     </ul>
                 </div>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2'>

@@ -48,10 +48,8 @@ function App() {
     handleClick(newsId, updateData, setClickedArticle)
     // return (
     //   console.log(newsId)
-    // )
   }
 
-  // console.log(VideoArray);
 
   const checkVideo = (newsId) => {
     navigate("/journeyfall")
@@ -60,7 +58,6 @@ function App() {
   return (
     <div className=" bg-[#FFFFFF] app relative">
       <QueryClientProvider client={client}>
-        {/* <div> */}
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
             toggle={toggle}
@@ -69,8 +66,6 @@ function App() {
             toggle={toggle} 
             handleHarmbugerclick={handleHarmbugerclick} 
           />
-        {/* </div> */}
-        <div className=''>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="blog" element={<Blog articles ={updateData} checkId ={checkId}/>}/>
@@ -100,7 +95,6 @@ function App() {
           />
           <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
-        </div>
         <Credits/>
         <Footer/>
       </QueryClientProvider>
