@@ -12,7 +12,7 @@ const Helphero = () => {
               <h2 className='text-[2rem]'>Welcome to the Tradiant Support Center, Can I help you?</h2>
               <textarea
                 placeholder='Search for something here'
-                className="w-5/6">
+                className="w-5/6 my-4">
               </textarea>
           </div>
         </div>
