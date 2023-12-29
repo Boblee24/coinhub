@@ -2,6 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import Images from '../Images';
 
 const Brand = () => {
   const settings = {
@@ -18,21 +19,17 @@ const Brand = () => {
   };
   return (
     <div>
-        <h2>Invest in their stock and be part of the business</h2>
-        <div className='brands'>
-            <ul>
+        <h2 className='text-[1.6rem] text-center p-2'>Invest in their stock and be part of the business</h2>
+        <div className='brands gap-4'>
               <Slider {...settings}>
-                <div>
-                  <li>Open Zepplin</li>
-                </div>
-                <div><li>Oracle</li></div>
-                <div><li>morpheus</li></div>
-                <div><li>Samsung</li></div>
-                <div><li>Monday</li></div>
-                <div><li>Segment</li></div>
-                <div><li>progonent</li></div>
+                <div className='p-3'><img className='' src={Images.segment} alt='segment'/> </div>
+                <div className='p-3'><img className='mt-1' src={Images.oracle} alt='oracle'/></div>
+                <div className='p-3'><img className='' src={Images.protonet} alt='protonent'/></div>
+                <div className='p-3'><img className='mt-1' src={Images.samsung} alt='samsung'/></div>
+                <div className='p-3'><img className='' src={Images.morpheus} alt='morpheus'/></div>
+                <div className='p-3'><img className='' src={Images.monday} alt='monday'/></div>
+                <div className='p-3'><img className='' src={Images.open} alt='open'/></div>
               </Slider>
-            </ul>
         </div>
     </div>
   )

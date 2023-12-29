@@ -15,7 +15,13 @@ const Images = {
     mission : require('./mission.png'),
     vision: require('./vision.png'),
     about_hero2: require('./about2.png'),
-    girlslooking: require('./girlslooking.png')
+    oracle: require('./oracle.png'),
+    samsung: require('./samsung.png'),
+    monday: require('./monday.png'),
+    segment: require('./segment.png'),
+    morpheus: require('./morpheus.png'),
+    protonet: require('./protonet.png'),
+    open: require('./open.png'),
 
 }
 
