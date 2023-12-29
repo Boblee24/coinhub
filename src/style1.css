@@ -11,7 +11,7 @@
 button.remove {
     background: none;
     color: #2196F3;
-    padding: .3rem 0;
+    padding: 0;
 }
 .icon_contact {
     display: flex;
@@ -40,18 +40,4 @@ button.remove {
     /* color: red; */
 }
 
-.sidebar, .main-story {
-    /* width: 100vh; */
-    background-color: yellow;
-}
-/* @media screen and (min-width: 600px) {
-    :root {
-      --fs-h6: 18px;
-    }
-  }
-@media screen and (min-width: 768px) {
-    :root {
-      --font-size: 20px; 
-    
-  }
-} */
+
