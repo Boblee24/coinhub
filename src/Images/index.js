@@ -22,6 +22,7 @@ const Images = {
     morpheus: require('./morpheus.png'),
     protonet: require('./protonet.png'),
     open: require('./open.png'),
+    sponsor: require('./sponsor.png'),
 
 }
 
