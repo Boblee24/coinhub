@@ -11,7 +11,7 @@ const HOME_HERO = () => {
                 <p className='my-4'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
                 <div className='home_hero_links flex gap-4 items-center my-3'>
                     <a href='/'>Get started</a>
-                    <a className='remove' href='/'>See How It Works</a>
+                    <a className='remove' href='/'>See How It Works &rarr;</a>
                 </div>
             </div>
             <div className='home_hero_left_sponsor'>
