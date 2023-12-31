@@ -27,7 +27,6 @@ function App() {
   const [toggle, setToggle] = useState(false)
   const handleHarmbugerclick = () => {
      setToggle(!toggle)
-      // console.log('Hekllo weosd')
   }
 
   const navigate = useNavigate()
@@ -46,8 +45,6 @@ function App() {
   const checkId = (newsId) => {
     navigate("/newsfall")
     handleClick(newsId, updateData, setClickedArticle)
-    // return (
-    //   console.log(newsId)
   }
 
 
@@ -101,5 +98,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
