@@ -4,7 +4,7 @@ import Images from '../Images'
 const HOME_HERO = () => {
   return (
     <div className='bg-[#F5F5F5] home flex flex-col pt-14'>
-        <div className='m-3'>
+        <div className='m-3 p-2'>
             <div className=''>
                 <p><span className='text-[#91A3B2]'>Smart Investation</span></p>
                 <h2 className='text-[1.8rem]'>Invest Your Money With Us and <span className='home_hero_span'>Get Amazing Profit</span></h2>
@@ -15,7 +15,7 @@ const HOME_HERO = () => {
                 </div>
             </div>
             <div className='home_hero_left_sponsor'>
-                <p>Registired and Surpervised by:</p>
+                <p>Registired and Surpervised by :</p>
                 <div className='w-[35%]'>
                     <img className='w-[full]'src={Images.sponsor} alt='sponsor'/>
                 </div>
