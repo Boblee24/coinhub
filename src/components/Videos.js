@@ -1,11 +1,6 @@
 import React from 'react'
 
 const Videos = (props) => {
-    // console.log(props.video.videos);
-    // const videolist = 
-    //         </div>
-    // ))
-    // console.log(props.video);
   return (
     <div className='videos'>
         <h3>Learn With us</h3>
