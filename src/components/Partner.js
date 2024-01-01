@@ -11,7 +11,6 @@ const Partner = () => {
         </div>
         <div className='partners my-9 flex justify-between flex-col items-center text-center'>
             <div className='partner_child my-5'>
-                {/* <img src="https://images.pexels.com/photos/1672548/pexels-" alt='soft'/> */}
                 <div className='flex justify-center items-center'>
                     <IoFlashOutline className='flash w-10 h-10 text-[#2196F3]' />
                 </div>
@@ -20,7 +19,6 @@ const Partner = () => {
                 <a href= "/" className='text-[#2196F3] my-3 inline-block'> View our execution scoreboard &gt;</a>
             </div>
             <div className='partner_child my-5'>
-                {/* <img src="https://images.pexels.com/photos/1672548/pexels-" alt='soft'/> */}
                 <div className='flex justify-center items-center'>
                     <GiTransparentSlime className='slime w-10 h-10 text-[#2196F3] ' />
                 </div>
