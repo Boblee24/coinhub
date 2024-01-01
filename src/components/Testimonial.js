@@ -30,7 +30,6 @@ const Testimonial = () => {
           </div>
           <div className='bottom_value my-2'>
               <div className='flex justify-center'><SiSimplenote /></div>
-              {/* <div>Icon</div> */}
               <div>
                   <h5>Accesibilty</h5>
                   <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
@@ -38,7 +37,6 @@ const Testimonial = () => {
           </div>
           <div className='bottom_value my-2'>
               <div><SiSimplenote /></div>
-              {/* <div>Icon</div> */}
               <div>
                   <h5>Simplicity</h5>
                   <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
@@ -46,7 +44,6 @@ const Testimonial = () => {
           </div>
           <div className='bottom_value my-2'>
               <div><SiSimplenote /></div>
-              {/* <div>Icon</div> */}
               <div>
                   <h5>Simplicity</h5>
                   <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
@@ -54,7 +51,6 @@ const Testimonial = () => {
           </div>
           <div className='bottom_value my-2'>
               <div><SiSimplenote /></div>
-              {/* <div>Icon</div> */}
               <div>
                   <h5>Simplicity</h5>
                   <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
@@ -62,7 +58,6 @@ const Testimonial = () => {
           </div>
           <div className='bottom_value my-2'>
               <div><SiSimplenote /></div>
-              {/* <div>Icon</div> */}
               <div>
                   <h5>Simplicity</h5>
                   <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
