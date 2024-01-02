@@ -6,9 +6,9 @@ const HOME_HERO = () => {
     <div className='bg-[#F5F5F5] home flex flex-col pt-14'>
         <div className='m-3 p-2'>
             <div className=''>
-                <p><span className='text-[#91A3B2]'>Smart Investation</span></p>
+                <p><span className='text-[#91A3B2] font-[Poppins]' >Smart Investation</span></p>
                 <h2 className='text-[1.8rem]'>Invest Your Money With Us and <span className='home_hero_span'>Get Amazing Profit</span></h2>
-                <p className='my-4'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.Aborisade Ayomiposi</p>
+                <p className='my-4'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.Aborisade Ayomiposi emmanuel</p>
                 <div className='home_hero_links flex gap-4 items-center my-3'>
                     <a href='/'>Get started</a>
                     <a className='remove' href='/'>See How It Works &rarr;</a>
@@ -29,3 +29,6 @@ const HOME_HERO = () => {
 }
 
 export default HOME_HERO
+
+// git config --global user.email "bobleeswaggs123@gmail.com"
+//   git config --global user.name "Aborisade Ayomiposi"

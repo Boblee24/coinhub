@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='flex item-center justify-center p-1'>
-        <h6 className=''> Copyright @Ayomiposi 2023. All Rights Reserved</h6>
+        <h6 className='text-[.7rem] p-2'> Copyright @Ayomiposi 2024. All Rights Reserved</h6>
     </div>
   )
 }
