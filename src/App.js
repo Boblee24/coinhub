@@ -1,6 +1,6 @@
 import './App.css';
 import "./style1.css"
-import {useState} from 'react'
+import {useState, createContext} from 'react'
 import {useNavigate, Route, Routes} from 'react-router-dom'
 import Header from './components/Header';
 import data from './data.json'
@@ -12,15 +12,16 @@ import {nanoid} from 'nanoid'
 import About from './pages/About';
 import Blog from './pages/Blog';
 import WHY_US from './pages/Why_us';
-import {QueryClient, QueryClientProvider} from "@tanstack/react-query"
+// import {QueryClient, QueryClientProvider} from "@tanstack/react-query"
 import Newsfall from './pages/Newsfall';
 import Credits from './components/Credits';
 import Footer from './components/Footer';
 import Journeyfall from './pages/Journeyfall';
 import Harmbuger from './components/harmbuger';
 
+export const AppContext = createContext()
+
 function App() {
-  const client = new QueryClient({})
 
   //navigation of sidebar
   const [toggle, setToggle] = useState(false)
@@ -61,14 +62,14 @@ function App() {
 
   return (
     <div className=" bg-[#FFFFFF] app relative">
-      <QueryClientProvider client={client}>
+      <AppContext.Provider value={{scrollToTop, VideoArray}}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
-            scrollToTop ={scrollToTop}
             toggle={toggle}
           />
           <Harmbuger 
             toggle={toggle} 
+            scrollToTop ={scrollToTop}
             handleHarmbugerclick={handleHarmbugerclick} 
           />
         <Routes>
@@ -95,14 +96,13 @@ function App() {
           />}
           />
           <Route path="why_us" element={<WHY_US/>}/>
-          <Route path="help" element={<Help
-            VideoArray = {VideoArray}/>}
+          <Route path="help" element={<Help/>}
           />
           <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
-        <Credits scrollToTop ={scrollToTop}/>
+        <Credits />
         <Footer/>
-      </QueryClientProvider>
+      </AppContext.Provider>
     </div>
   );
 }

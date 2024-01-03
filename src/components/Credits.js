@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Images from '../Images'
 import logo from '../logo.svg'
 import { Link } from 'react-router-dom'
 import { FaRegEnvelope} from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
+import { AppContext } from '../App'
 
 
-const Credits = (props) => {
+const Credits = () => {
+    const {scrollToTop} = useContext(AppContext)
   return (
     <div className='credit flex flex-col p-4 bg-[#EFF2F4] font-[Poppins]'>
         <div className=''>
@@ -28,21 +30,21 @@ const Credits = (props) => {
             <div className='footer_right'>
                 <h5 className='font-medium'>Companies</h5>
                 <ul className='text-[.9rem]'>
-                    <li className='py-[.2rem]'><Link to="/about" onClick={props.scrollToTop}>About</Link></li>
-                    <li className='py-[.2rem]'><Link to="/why_us" onClick={props.scrollToTop}>Why Us</Link></li>
-                    <li className='py-[.2rem]'><Link to="/blog" onClick={props.scrollToTop}>Blog</Link></li>
-                    <li className='py-[.2rem]'><Link to="/journey" onClick={props.scrollToTop}>Journey</Link></li>
-                    <li className='py-[.2rem]'><Link to="/help" onClick={props.scrollToTop}>Help</Link></li>
+                    <li className='py-[.2rem]'><Link to="/about" onClick={scrollToTop}>About</Link></li>
+                    <li className='py-[.2rem]'><Link to="/why_us" onClick={scrollToTop}>Why Us</Link></li>
+                    <li className='py-[.2rem]'><Link to="/blog" onClick={scrollToTop}>Blog</Link></li>
+                    <li className='py-[.2rem]'><Link to="/journey" onClick={scrollToTop}>Journey</Link></li>
+                    <li className='py-[.2rem]'><Link to="/help" onClick={scrollToTop}>Help</Link></li>
                 </ul>
             </div>
             <div className='footer_right'>
                 <h5 className='font-medium'>Resources</h5>
                 <ul className='text-[.9rem]'>
-                    <li className='py-[.2rem]'><Link to="/about" onClick={props.scrollToTop}>About</Link></li>
-                    <li className='py-[.2rem]'><Link to="/why_us" onClick={props.scrollToTop}>Why Us</Link></li>
-                    <li className='py-[.2rem]'><Link to="/blog" onClick={props.scrollToTop}>Blog</Link></li>
-                    <li className='py-[.2rem]'><Link to="/journey" onClick={props.scrollToTop}>Journey</Link></li>
-                    <li className='py-[.2rem]'><Link to="/help" onClick={props.scrollToTop}>Help</Link></li>
+                    <li className='py-[.2rem]'><Link to="/about" onClick={scrollToTop}>About</Link></li>
+                    <li className='py-[.2rem]'><Link to="/why_us" onClick={scrollToTop}>Why Us</Link></li>
+                    <li className='py-[.2rem]'><Link to="/blog" onClick={scrollToTop}>Blog</Link></li>
+                    <li className='py-[.2rem]'><Link to="/journey" onClick={scrollToTop}>Journey</Link></li>
+                    <li className='py-[.2rem]'><Link to="/help" onClick={scrollToTop}>Help</Link></li>
                 </ul>
             </div>
             <div className=''>

@@ -1,4 +1,4 @@
-import React from 'react'
+import  { useContext } from 'react'
 import { FaRegHourglass } from "react-icons/fa6";
 import { MdOutlineEventNote } from "react-icons/md";
 import { BsPersonPlus } from "react-icons/bs";
@@ -8,7 +8,10 @@ import { FcInspection } from "react-icons/fc";
 import { PiChartLineUp } from "react-icons/pi";
 import { LuDownload } from "react-icons/lu";
 import Images from '../Images';
-const Topic = (props) => {
+import { AppContext } from '../App';
+
+const Topic = () => {
+    const {VideoArray} = useContext(AppContext)
   return (
     <div className='topic'>
         <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
@@ -67,7 +70,7 @@ const Topic = (props) => {
             <h3 className=' text-[1.7rem]'>Video Tutorial</h3>
             <p>Learn how to use our platform by watching the following set of Tutorial videos</p>
         </div>
-          {props.VideoArray.videos.map((videoarray) => (
+          {VideoArray.videos.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
               <h2>{videoarray.title}</h2>
