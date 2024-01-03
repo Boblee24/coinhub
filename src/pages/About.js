@@ -7,7 +7,7 @@ import WITH_US from '../components/With_us'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about font-[Poppins]'>
       <ABOUT_HERO/>
       <Partner/>
       <Vismis/>
