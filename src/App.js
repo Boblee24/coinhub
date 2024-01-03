@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div className=" bg-[#FFFFFF] app relative">
-      <AppContext.Provider value={{scrollToTop, VideoArray}}>
+      <AppContext.Provider value={{scrollToTop, VideoArray, updateData, checkId}}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
             toggle={toggle}
@@ -74,7 +74,7 @@ function App() {
           />
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="blog" element={<Blog articles ={updateData} checkId ={checkId}/>}/>
+          <Route path="blog" element={<Blog/>}/>
           <Route path="newsfall" element ={<Newsfall 
             onclick={handleClick} 
             clickedArticle = {clickedArticle}

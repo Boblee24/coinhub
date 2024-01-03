@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../App';
 
-const News = (props) => {
+const News = () => {
+    const {updateData, checkId} = useContext(AppContext)
     const trimWords = (toBeTrimmed, words) => {
         let trimedString = toBeTrimmed.trim()
         if(trimedString.length > words){
@@ -9,7 +11,7 @@ const News = (props) => {
             return toBeTrimmed;
         }
     }
-    const newsArray = props.articles.map((article) => (
+    const newsArray = updateData.map((article) => (
         <div className='sub_news rounded-xl self-auto no' key={article.article_id}>;
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
@@ -19,7 +21,7 @@ const News = (props) => {
                 </div>
                 <h5 className='text-[red]'>{trimWords(article.title, 50)}</h5>
                 <p>{trimWords(article.description, 100)}</p>
-                    <button onClick={() => props.checkId(article.article_id)}>Read More</button>
+                    <button onClick={() => checkId(article.article_id)}>Read More</button>
             </div>
         </div>
     ))
