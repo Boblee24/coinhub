@@ -42,6 +42,7 @@ function App() {
     ...article,
     article_id: article.article_id || nanoid()//replacing the json file byh destructuring thye existing the array of bulloks
   }))// Which creates new array UpdateDatab which cannow be mapped through in any part of the app
+
   const handleClick = (articleId, articleOrVideo, clicked) => {
     //FInding the selected index
     const clickedData = articleOrVideo.find((article) => article.article_id === articleId)// Used this to get the elements of the clicked index array
@@ -62,7 +63,7 @@ function App() {
 
   return (
     <div className=" bg-[#FFFFFF] app relative">
-      <AppContext.Provider value={{scrollToTop, VideoArray, updateData, checkId}}>
+      <AppContext.Provider value={{scrollToTop, VideoArray, updateData, checkId, handleClick}}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
             toggle={toggle}
@@ -78,20 +79,17 @@ function App() {
           <Route path="newsfall" element ={<Newsfall 
             onclick={handleClick} 
             clickedArticle = {clickedArticle}
-            updateData = {updateData}
             setClickedArticle = {setClickedArticle}
           />}
           />
           <Route path="about" element={<About/>}/>
           <Route path="journey" element={<Journey
-            VideoArray = {VideoArray}
             checkVideo = {checkVideo}
           />}
           />
           <Route path="journeyfall" element={<Journeyfall 
-            onclick={handleClick} 
             clickedVideo = {clickedVideo}
-            VideoArray = {VideoArray}
+            VideosArray = {VideosArray}
             setClickedVideo = {setClickedVideo}
           />}
           />

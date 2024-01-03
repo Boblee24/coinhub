@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../App.css'
+import { AppContext } from '../App'
 
 const Journeyfall = (props) => {
-    // console.log(props.VideoArray);
+    const {VideoArray, scrollToTop, handleClick} = useContext(AppContext)
     const journey = () => {
         return(
             <div>
-                {props.VideoArray.videos.map((videoarray) => (
+                {VideoArray.videos.map((videoarray) => (
                     <div key={videoarray.article_id}>
                         <video width="640" height="360"  className="video-js vjs-default-skin vjs-big-play-centered"controls src={videoarray.src} type="video/mp4"></video>
                         <h2>{videoarray.title}</h2>
                         <p>{videoarray.description}</p>
-                        <button onClick={() => props.onclick(videoarray.article_id, props.VideosArray, props.setClickedVideo)}>Watch More</button>
+                        <button onClick={() => {handleClick(videoarray.article_id, props.VideosArray, props.setClickedVideo)
+                                 scrollToTop() ;            
+                        }}>Watch More</button>
                     </div>
                 ))}
             </div>
@@ -20,9 +23,9 @@ const Journeyfall = (props) => {
     const clicked = () => {
         return(
             <section>
-                {/* <video width="640" height="360" controls src={props.clickedVideo.src} type="video/mp4"></video>
+                <video width="640" height="360" controls src={props.clickedVideo.src} type="video/mp4"></video>
                 <h2>{props.clickedVideo.title}</h2>
-                <p>{props.clickedVideo.description}</p> */}
+                <p>{props.clickedVideo.description}</p>
             </section>
         )
     }
