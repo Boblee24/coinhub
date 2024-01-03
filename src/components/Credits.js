@@ -56,7 +56,7 @@ const Credits = () => {
             <div className=''>
                 <h5>Contact US</h5>
                 <ul className='text-[.9rem]'>
-                    <li className='icon_contact py-[.2rem]'><FiPhone/>0903 603 5324</li>
+                    <li className='icon_contact py-[.2rem]'><FiPhone/>+234 903 603 5324</li>
                     <li className='icon_contact py-[.2rem]'><CiLocationOn/>Journey</li>
                     <li className='icon_contact py-[.2rem]'><FaRegEnvelope/>Boblees@gmail.com</li>
                 </ul>
