@@ -7,7 +7,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { FiPhone } from "react-icons/fi";
 
 
-const Credits = () => {
+const Credits = (props) => {
   return (
     <div className='credit flex flex-col p-4 bg-[#EFF2F4] font-[Poppins]'>
         <div className=''>
@@ -17,7 +17,7 @@ const Credits = () => {
             </Link>
             <p className='text-[.9rem]'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
             <div className='download'>
-                <h6 className='my-2'>Unduh Aplikasi</h6>
+                <h6 className='my-2 font-medium'>Download App</h6>
                 <div className='flex gap-3'>
                     <a href="/"><img alt='download' src={Images.appstore} /></a>
                     <a href="/"><img src={Images.playstore} alt='download'/></a>
@@ -26,27 +26,27 @@ const Credits = () => {
         </div>
         <div className='flex flex-wrap gap-5 my-4'>
             <div className='footer_right'>
-                <h5>Companies</h5>
+                <h5 className='font-medium'>Companies</h5>
                 <ul className='text-[.9rem]'>
-                    <li className='py-[.2rem]'>About Us</li>
-                    <li className='py-[.2rem]'>Journey</li>
-                    <li className='py-[.2rem]'>Blog</li>
-                    <li className='py-[.2rem]'>Contact</li>
-                    <li className='py-[.2rem]'>Help</li>
+                    <li className='py-[.2rem]'><Link to="/about" onClick={props.scrollToTop}>About</Link></li>
+                    <li className='py-[.2rem]'><Link to="/why_us" onClick={props.scrollToTop}>Why Us</Link></li>
+                    <li className='py-[.2rem]'><Link to="/blog" onClick={props.scrollToTop}>Blog</Link></li>
+                    <li className='py-[.2rem]'><Link to="/journey" onClick={props.scrollToTop}>Journey</Link></li>
+                    <li className='py-[.2rem]'><Link to="/help" onClick={props.scrollToTop}>Help</Link></li>
                 </ul>
             </div>
             <div className='footer_right'>
-                <h5>Resources</h5>
+                <h5 className='font-medium'>Resources</h5>
                 <ul className='text-[.9rem]'>
-                    <li className='py-[.2rem]'>About Us</li>
-                    <li className='py-[.2rem]'>Journey</li>
-                    <li className='py-[.2rem]'>Blog</li>
-                    <li className='py-[.2rem]'>Contact</li>
-                    <li className='py-[.2rem]'>Help</li>
+                    <li className='py-[.2rem]'><Link to="/about" onClick={props.scrollToTop}>About</Link></li>
+                    <li className='py-[.2rem]'><Link to="/why_us" onClick={props.scrollToTop}>Why Us</Link></li>
+                    <li className='py-[.2rem]'><Link to="/blog" onClick={props.scrollToTop}>Blog</Link></li>
+                    <li className='py-[.2rem]'><Link to="/journey" onClick={props.scrollToTop}>Journey</Link></li>
+                    <li className='py-[.2rem]'><Link to="/help" onClick={props.scrollToTop}>Help</Link></li>
                 </ul>
             </div>
             <div className=''>
-                <h5>Help</h5>
+                <h5 className='font-medium'>Help</h5>
                 <ul className='text-[.9rem]'>
                     <li className='py-[.2rem]'>House Rules</li>
                     <li className='py-[.2rem]'>Journey</li>
@@ -54,7 +54,7 @@ const Credits = () => {
                 </ul>
             </div>
             <div className=''>
-                <h5>Contact US</h5>
+                <h5 className='font-medium' >Contact US</h5>
                 <ul className='text-[.9rem]'>
                     <li className='icon_contact py-[.2rem]'><FiPhone/>+234 903 603 5324</li>
                     <li className='icon_contact py-[.2rem]'><CiLocationOn/>Journey</li>

@@ -18,17 +18,20 @@ import Credits from './components/Credits';
 import Footer from './components/Footer';
 import Journeyfall from './pages/Journeyfall';
 import Harmbuger from './components/harmbuger';
-// import Heading from './pages/Heading';
 
 function App() {
   const client = new QueryClient({})
 
   //navigation of sidebar
-  //navigation of sidebar
-  //My name is aborisade ayomiposi emmanuel
   const [toggle, setToggle] = useState(false)
   const handleHarmbugerclick = () => {
      setToggle(!toggle)
+  }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top : 0,
+      behavior: 'auto'
+    })
   }
 
   const navigate = useNavigate()
@@ -44,6 +47,7 @@ function App() {
     clicked(clickedData)
   }
   const VideosArray = VideoArray.videos
+
   const checkId = (newsId) => {
     navigate("/newsfall")
     handleClick(newsId, updateData, setClickedArticle)
@@ -54,11 +58,13 @@ function App() {
     navigate("/journeyfall")
     handleClick(newsId, VideosArray, setClickedVideo)
   }
+
   return (
     <div className=" bg-[#FFFFFF] app relative">
       <QueryClientProvider client={client}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
+            scrollToTop ={scrollToTop}
             toggle={toggle}
           />
           <Harmbuger 
@@ -94,7 +100,7 @@ function App() {
           />
           <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
         </Routes>
-        <Credits/>
+        <Credits scrollToTop ={scrollToTop}/>
         <Footer/>
       </QueryClientProvider>
     </div>
