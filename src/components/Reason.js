@@ -12,21 +12,21 @@ const Reason = () => {
             <div className='my-3'>
                 <div className='bg-[#F5F5F5] p-2' ><img src={Images.firstcard}alt='firstcard'/></div>
                 <div className='reason_flex_note'>
-                    <h1 className='my-1'>Quick Faster</h1>
+                    <h1 className='my-1 font-semibold'>Quick Faster</h1>
                     <p>Information spreads faster with the help of the Tradiant community. With Tradiant, you will be more updated with the latest information.</p>
                 </div>
             </div>
             <div className='my-3'>
                 <div className='bg-[#F5F5F5] p-2' ><img src={Images.secondcard}alt='secondcard'/></div>
                 <div className='reason_flex_note'>
-                    <h1 className='my-1'>Manage your wallets</h1>
+                    <h1 className='my-1 font-semibold'>Manage your wallets</h1>
                     <p>Make your finances easier and safer with Tradiant and make every transaction more secure and quality.</p>
                 </div>
             </div>
             <div className='my-3'>
                 <div className='bg-[#F5F5F5]' p-2> <img src={Images.thirdcard}alt='thirdcard'/></div>
                 <div className='reason_flex_note'>
-                    <h1 className='my-1'>Update Your Statistics</h1>
+                    <h1 className='my-1 font-semibold'>Update Your Statistics</h1>
                     <p>Update your general stats faster with direct notifications from Tradiant and make your next transaction more quality.</p>
                 </div>
             </div>

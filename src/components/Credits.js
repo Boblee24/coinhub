@@ -9,13 +9,13 @@ import { FiPhone } from "react-icons/fi";
 
 const Credits = () => {
   return (
-    <div className='credit flex flex-col p-4 bg-[#EFF2F4]'>
+    <div className='credit flex flex-col p-4 bg-[#EFF2F4] font-[Poppins]'>
         <div className=''>
             <Link to="/" className='flex items-center gap-2 ' >
                 <img src={logo} className='soft w-10 h-10' alt='logo'/>
                 <h6 className='text-[#074C83]'>Coinhub</h6>
             </Link>
-            <p>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
+            <p className='text-[.9rem]'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
             <div className='download'>
                 <h6 className='my-2'>Unduh Aplikasi</h6>
                 <div className='flex gap-3'>
@@ -27,38 +27,38 @@ const Credits = () => {
         <div className='flex flex-wrap gap-5 my-4'>
             <div className='footer_right'>
                 <h5>Companies</h5>
-                <ul>
-                    <li>About Us</li>
-                    <li>Journey</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>Help</li>
+                <ul className='text-[.9rem]'>
+                    <li className='py-[.2rem]'>About Us</li>
+                    <li className='py-[.2rem]'>Journey</li>
+                    <li className='py-[.2rem]'>Blog</li>
+                    <li className='py-[.2rem]'>Contact</li>
+                    <li className='py-[.2rem]'>Help</li>
                 </ul>
             </div>
             <div className='footer_right'>
                 <h5>Resources</h5>
-                <ul>
-                    <li>About Us</li>
-                    <li>Journey</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>Help</li>
+                <ul className='text-[.9rem]'>
+                    <li className='py-[.2rem]'>About Us</li>
+                    <li className='py-[.2rem]'>Journey</li>
+                    <li className='py-[.2rem]'>Blog</li>
+                    <li className='py-[.2rem]'>Contact</li>
+                    <li className='py-[.2rem]'>Help</li>
                 </ul>
             </div>
-            <div className='footer_right'>
+            <div className=''>
                 <h5>Help</h5>
-                <ul>
-                    <li>House Rules</li>
-                    <li>Journey</li>
-                    <li>Privacy & Policy</li>
+                <ul className='text-[.9rem]'>
+                    <li className='py-[.2rem]'>House Rules</li>
+                    <li className='py-[.2rem]'>Journey</li>
+                    <li className='py-[.2rem]'>Privacy & Policy</li>
                 </ul>
             </div>
-            <div className='footer_right'>
+            <div className=''>
                 <h5>Contact US</h5>
-                <ul>
-                    <li className='icon_contact'><FiPhone/>0903 603 5324</li>
-                    <li className='icon_contact'><CiLocationOn/>Journey</li>
-                    <li className='icon_contact'><FaRegEnvelope/>Boblees@gmail.com</li>
+                <ul className='text-[.9rem]'>
+                    <li className='icon_contact py-[.2rem]'><FiPhone/>0903 603 5324</li>
+                    <li className='icon_contact py-[.2rem]'><CiLocationOn/>Journey</li>
+                    <li className='icon_contact py-[.2rem]'><FaRegEnvelope/>Boblees@gmail.com</li>
                 </ul>
             </div>
         </div>

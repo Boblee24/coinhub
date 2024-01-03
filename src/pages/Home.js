@@ -9,7 +9,7 @@ import Newsletter from '../components/Newsletter'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home font-[Poppins]'>
         <HOME_HERO/>
         <Brand/>
         <Reason/>
