@@ -3,6 +3,7 @@ import { AppContext } from '../App'
 
 const Newsfall = (props) => {
   const {updateData, scrollToTop} = useContext(AppContext)
+  
   const trimWords = (toBeTrimmed, words) => {
     let trimedString = toBeTrimmed.trim()
     if(trimedString.length > words){
