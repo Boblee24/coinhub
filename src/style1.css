@@ -32,10 +32,3 @@ button.remove, a.remove {
 .newsfall h2 {
     font-size: 1rem;
 }
-
-
-.top_value h3 {
-    font-size: var(--fs-h3);
-}
-
-

@@ -15,10 +15,10 @@ const ABOUT_VALUE = () => {
     };
   
   return (
-    <div className='about_value my-7'>
-        <div className='top_value text-center'>
-            <h3>Our Values</h3>
-            <p>Our values are reflected in our product offering and user experience, as well as being embedded in our internal culture and employee experience.</p>
+    <div className='about_value bg-[#EFF2F4] py-7'>
+        <div className=' text-center'>
+            <h3 className='text-[1.8rem] font-[Epilogue] font-[700]'>Our Values</h3>
+            <p className='p-3 text-[.9rem]'>Our values are reflected in our product offering and user experience, as well as being embedded in our internal culture and employee experience.</p>
         </div>
         <Slider {...settings}>
           <div className='bottom_value text-center p-3'>
@@ -26,7 +26,7 @@ const ABOUT_VALUE = () => {
                 <SiEasyeda size={40} color="#28a745" />
               </div>
               <div>
-                    <h5>Simplicity</h5>
+                    <h5 className='text-[1.2rem] font-[500]'>Simplicity</h5>
                     <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
               </div>
           </div>
@@ -35,7 +35,7 @@ const ABOUT_VALUE = () => {
                 <SiEasyeda size={40} color="#28a745" />
               </div>
               <div>
-                    <h5>Simplicity</h5>
+                    <h5 className='text-[1.2rem] font-[500]'>Simplicity</h5>
                     <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
               </div>
           </div>
@@ -44,7 +44,7 @@ const ABOUT_VALUE = () => {
                 <SiEasyeda size={40} color="#28a745" />
               </div>
               <div>
-                    <h5>Simplicity</h5>
+                    <h5 className='text-[1.2rem] font-[500]'>Simplicity</h5>
                     <p>We strive for simplicity in all things: our product, our marketing, our processes, our business model. The result is solutions that are beautiful in their efficiency and clarity, easier to understand wholly, easier to translate to different situations and scales, and easier to change later.</p>
               </div>
           </div>
