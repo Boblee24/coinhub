@@ -17,7 +17,7 @@ const Header = (props) => {
                 <div>
                     <ul className='flex justify-center flex-col py-7 items-start'>
                         <li><Link to="/about" onClick={props.handleHarmbugerclick}>About</Link></li>
-                        <li><Link to="/why_us" onClick={props.handleHarmbugerclick}>Why Us</Link></li>
+                        <li><Link to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</Link></li>
                         <li><Link to="/blog" onClick={props.handleHarmbugerclick}>Blog</Link></li>
                         <li><Link to="/journey" onClick={props.handleHarmbugerclick}>Journey</Link></li>
                         <li><Link to="/help" onClick={props.handleHarmbugerclick}>Help</Link></li>
