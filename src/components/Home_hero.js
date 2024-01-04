@@ -3,7 +3,7 @@ import Images from '../Images'
 
 const HOME_HERO = () => {
   return (
-    <div className='bg-[#F5F5F5] home flex flex-col pt-14 font-[Poppins]'>
+    <div className='bg-[#F5F5F5] home flex flex-col pt-14 font-[Epilogue]'>
         <div className='m-3 p-2'>
             <div className=''>
                 <p><span className='text-[#91A3B2] ' >Smart Investation</span></p>
