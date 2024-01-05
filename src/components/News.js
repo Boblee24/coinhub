@@ -12,16 +12,16 @@ const News = () => {
         }
     }
     const newsArray = updateData.map((article) => (
-        <div className='sub_news rounded-xl self-stretch h-[455px]' key={article.article_id}>;
+        <div className='sub_news shadow-[#E2E7EB] shadow-lg rounded-xl self-stretch h-[355px] relative' key={article.article_id}>
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
-            <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
-                <div className='flex justify-between'>
-                    <h5 className='text-sm text-[#485967]'>21/03/2022</h5>
-                    <h5 className='text-sm text-[#2196F3]'>Corporate News</h5>
+            <div className=' '>
+                <div className='flex justify-between my-3'>
+                    <h5 className='text-[.8rem] text-[#485967] '>21/03/2022</h5>
+                    <h5 className='text-[.8rem] text-[#2196F3]'>Corporate News</h5>
                 </div>
-                <h5 className='text-[red] font-[Poppins] font-semibold'>{trimWords(article.title, 50)}</h5>
+                <h5 className='text-[.9rem] font-[Poppins] font-semibold'>{trimWords(article.title, 50)}</h5>
                 <p className='font-[Poppins] text-[0.9rem]'>{trimWords(article.description, 100)}</p>
-                <button className='text-right ' onClick={() => checkId(article.article_id)}>Read More &rarr;</button>
+                <button className='absolute right-3 bottom-2 remove' onClick={() => checkId(article.article_id)}>Read More &rarr;</button>
             </div>
         </div>
     ))
