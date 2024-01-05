@@ -79,14 +79,14 @@ const Topic = () => {
     </div>
         <section className='flex-col flex justify-center px-[5%] gap-7 py-4 bg-[#F1F9FF]'>
             <img src={Images.mission} alt='mission'/>
-            <div className='flex flex-col gap-3'>
-                <h3 className='leading-[1rem] text-[1.7rem]'>Glosarium Trading</h3>
+            <div className='flex flex-col gap-5'>
+                <h3 className='leading-[1rem] text-[1.7rem] font-[Epilogue] font-bold'>Glosarium Trading</h3>
                 <p>Day Trading is Refers to a certain financial transaction position which is opened and closed on the same day (not overnight).</p>
                 <button className='self-start'>Learn More</button>
             </div> 
         </section>
         <footer className='flex flex-col p-3'>
-        <h3 className='text-[1.8rem] text-center'>Still haven't found the answer to your question?</h3>
+        <h3 className='text-[1.6rem] text-center font-bold leading-[2.2rem]'>Still haven't found the answer to your question?</h3>
         <button className='self-center my-3'>Contact us</button>
         </footer>
     </div>

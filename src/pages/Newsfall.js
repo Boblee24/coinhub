@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { AppContext } from '../App'
 
 const Newsfall = (props) => {
-  const {updateData, scrollToTop} = useContext(AppContext)
+  const {updateData, scrollToTop, handleClick} = useContext(AppContext)
   
   const trimWords = (toBeTrimmed, words) => {
     let trimedString = toBeTrimmed.trim()
@@ -23,8 +23,9 @@ const Newsfall = (props) => {
             <div className='w-full flex flex-col py-2 justify-between  '>
               <h2>{trimWords(article.title, 50)}</h2>
               <p className='text-[.8rem]'>{trimWords(article.description, 90)}  <button className='remove' onClick={() => {
-                scrollToTop();
-                props.onclick(article.article_id, props.updateData, props.setClickedArticle)}
+                handleClick(article.article_id, updateData, props.setClickedArticle)
+                // console.log(props.updateData)
+                scrollToTop();}
               }>
                 Read More &rarr;
               </button></p>
