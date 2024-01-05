@@ -16,8 +16,8 @@ const News = () => {
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className=' p-1'>
                 <div className='flex justify-between my-3'>
-                    <h5 className='text-[.8rem] text-[#485967] '>21/03/2022</h5>
-                    <h5 className='text-[.8rem] text-[#2196F3]'>Corporate News</h5>
+                    <h5 className='text-[.7rem] text-[#485967] '>21/03/2022</h5>
+                    <h5 className='text-[.7rem] text-[#2196F3]'>Corporate News</h5>
                 </div>
                 <h5 className='text-[.9rem] font-[Poppins] font-semibold'>{trimWords(article.title, 50)}</h5>
                 <p className='font-[Poppins] text-[0.8rem]'>{trimWords(article.description, 100)}</p>
