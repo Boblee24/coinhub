@@ -39,8 +39,8 @@ const Newsfall = (props) => {
   };
   return (
     <div className='newsfall'>
-      <section className='main-story'>
-        <h3>{props.clickedArticle.title}</h3>
+      <section className='main-story pt-[4rem]'>
+        <h3 className='font-[Epilogue] font-bold text-[1.5rem]'>{props.clickedArticle.title}</h3>
         <h5>This is the fucking Date</h5>
         <img src= {props.clickedArticle.urlToImage} alt='bollocks'/>
         <p>{props.clickedArticle.content}</p>

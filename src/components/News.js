@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { AppContext } from '../App';
 
 const News = () => {
-    const {updateData, checkId} = useContext(AppContext)
+    const {updateData, scrollToTop, checkId} = useContext(AppContext)
     const trimWords = (toBeTrimmed, words) => {
         let trimedString = toBeTrimmed.trim()
         if(trimedString.length > words){
@@ -21,7 +21,10 @@ const News = () => {
                 </div>
                 <h5 className='text-[.9rem] font-[Poppins] font-semibold'>{trimWords(article.title, 50)}</h5>
                 <p className='font-[Poppins] text-[0.8rem]'>{trimWords(article.description, 100)}</p>
-                <button className='absolute right-3 bottom-2 remove' onClick={() => checkId(article.article_id)}>Read More &rarr;</button>
+                <button className='absolute right-3 bottom-2 remove' onClick={() => {
+                    checkId(article.article_id);
+                    scrollToTop();
+                    }}>Read More &rarr;</button>
             </div>
         </div>
     ))
