@@ -20,60 +20,60 @@ const Topic = () => {
                 <div className='text-[#2196F3] flex justify-center'>
                     <FaRegHourglass size={30}/>
                 </div>
-                <h4 className='w-[50px]'>About Tradiant</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>About Tradiant</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <MdOutlineEventNote size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Beginner's Guide</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Beginner's Guide</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <BsPersonPlus size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Account Opening</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Account Opening</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <SlNotebook size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Trading Education</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Education</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <FaChartLine size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Trading Tools</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Tools</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <FcInspection size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Special Promotion</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Special Promotion</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <PiChartLineUp size={30}/>
                 </div>
-                <h4 className='w-[50px]'>General Trading</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>General Trading</h4>
             </div>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <LuDownload size={30}/>
                 </div>
-                <h4 className='w-[50px]'>Download Platform</h4>
+                <h4 className='w-[50px] font-semibold font-[Poppins]'>Download Platform</h4>
             </div>
     </div>
     <div className='grid grid-cols-1 gap-4 m-4 items-stretch'>
         <div className='text-center'>
-            <h3 className=' text-[1.7rem]'>Video Tutorial</h3>
-            <p>Learn how to use our platform by watching the following set of Tutorial videos</p>
+            <h3 className=' text-[1.7rem] font-[Epilogue] font-bold'>Video Tutorial</h3>
+            <p className='text-[.9rem] text-[#91A3B2]'>Learn how to use our platform by watching the following set of Tutorial videos</p>
         </div>
           {VideoArray.videos.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
-              <h2>{videoarray.title}</h2>
+              <h2 className='font-[Poppins] font-semibold py-2'>{videoarray.title}</h2>
             </div>
           ))}
     </div>
