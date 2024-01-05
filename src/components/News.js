@@ -16,12 +16,12 @@ const News = () => {
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
                 <div className='flex justify-between'>
-                    <h5 className='text-sm text-[#485967]'>Date</h5>
+                    <h5 className='text-sm text-[#485967]'>21/03/2022</h5>
                     <h5 className='text-sm text-[#2196F3]'>Corporate News</h5>
                 </div>
-                <h5 className='text-[red]'>{trimWords(article.title, 50)}</h5>
-                <p>{trimWords(article.description, 100)}</p>
-                    <button onClick={() => checkId(article.article_id)}>Read More</button>
+                <h5 className='text-[red] font-[Poppins] font-semibold'>{trimWords(article.title, 50)}</h5>
+                <p className='font-[Poppins] text-[0.9rem]'>{trimWords(article.description, 100)}</p>
+                <button className='text-right ' onClick={() => checkId(article.article_id)}>Read More &rarr;</button>
             </div>
         </div>
     ))
