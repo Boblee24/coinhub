@@ -12,7 +12,7 @@ const News = () => {
         }
     }
     const newsArray = updateData.map((article) => (
-        <div className='sub_news rounded-xl self-auto no' key={article.article_id}>;
+        <div className='sub_news rounded-xl self-stretch h-[455px]' key={article.article_id}>;
             <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
             <div className='shadow-lg rounded-xl shadow-[#E2E7EB]'>
                 <div className='flex justify-between'>
@@ -26,7 +26,7 @@ const News = () => {
         </div>
     ))
   return (
-    <div className='news grid grid-cols-2 gap-2 m-2 items-stretch '>
+    <div className='news grid grid-cols-2 gap-2 m-2  '>
         {newsArray}
     </div>
   ) 
