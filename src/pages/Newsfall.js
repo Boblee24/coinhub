@@ -39,14 +39,14 @@ const Newsfall = (props) => {
   };
   return (
     <div className='newsfall'>
-      <section className='main-story pt-[4rem]'>
+      <section className='main-story mx-2 pt-[4rem]'>
         <h3 className='font-[Epilogue] font-bold text-[1.5rem]'>{props.clickedArticle.title}</h3>
         <h5>This is the fucking Date</h5>
-        <img src= {props.clickedArticle.urlToImage} alt='bollocks'/>
-        <p>{props.clickedArticle.content}</p>
+        <img className='rounded-lg' src= {props.clickedArticle.urlToImage} alt='bollocks'/>
+        <p className='text-[.9rem]'>{props.clickedArticle.content}</p>
       </section>
       <section className=' sidebar'>
-        <h1>HELLO WORLD</h1>
+        <h1 className='font-[Epilogue] font-bold text-[1.3rem] p-2'>Top News</h1>
         {newsfall()}
       </section>
     </div>
