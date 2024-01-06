@@ -4,12 +4,15 @@ import { AppContext } from '../App'
 
 const Journeyfall = (props) => {
     const {VideoArray, scrollToTop, handleClick} = useContext(AppContext)
+
     const journey = () => {
         return(
             <div>
                 {VideoArray.videos.map((videoarray) => (
                     <div key={videoarray.article_id}>
-                        <video width="640" height="360"  className="video-js vjs-default-skin vjs-big-play-centered"controls src={videoarray.src} type="video/mp4"></video>
+                        {/* <video width="640" height="360"  className="video-js vjs-default-skin vjs-big-play-centered"controls src={videoarray.src} type="video/mp4"></video> */}
+                         <img src={videoarray.image} alt={videoarray.article_id}/>
+
                         <h2>{videoarray.title}</h2>
                         <p>{videoarray.description}</p>
                         <button onClick={() => {handleClick(videoarray.article_id, props.VideosArray, props.setClickedVideo)

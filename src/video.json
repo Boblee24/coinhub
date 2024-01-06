@@ -3,20 +3,23 @@
       {
         "article_id": "1",
         "title": "What is the stock market?",
+        "image": "./Images/girlslooking.png",
         "src": "./video1.mp4",
         "description": "Description of Video 1"
       },
       {
         "article_id": "2",
         "title": "How does the stock market work?",
+        "image": "./Images/girlslooking.png",
         "src": "./video2.mp4",
         "description": "Description of Video Number 2"
       },
       {
         "article_id": "3",
         "title": "Important glossary in the world of stocks",
+        "image": "./Images/girlslooking.png",
         "src": "./video3.mp4",
-        "description": "Description of Video 3"
+        "description": "Description of Video 34"
       }
     ]
   }
