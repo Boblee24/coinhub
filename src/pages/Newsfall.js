@@ -15,7 +15,7 @@ const Newsfall = (props) => {
   const newsfall = () => {
     return (
       <div className='m-2'>
-        {updateData.map((article) => (// Using the newly created arry which i mapped through to create something new
+        {updateData.map((article) => (// Using the newly created arry which I mapped through to create something new
           <div key={article.article_id} className='flex my-4 gap-2 shadow-lg rounded-xl shadow-[#E2E7EB]'>
             <div className='w-[200px] h-[140px] overflow-hidden '>
               <img className='w-[100%] h-full object-cover rounded-l-lg' src={article.urlToImage} alt="Article" />
