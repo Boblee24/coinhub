@@ -24,6 +24,7 @@ const Images = {
     open: require('./open.png'),
     sponsor: require('./sponsor.png'),
     home: require('./home.png'),
+    girlslooking: require('./girlslooking.png')
 
 }
 
