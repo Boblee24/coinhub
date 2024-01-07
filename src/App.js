@@ -63,7 +63,7 @@ function App() {
 
   return (
     <div className=" bg-[#FFFFFF] app relative">
-      <AppContext.Provider value={{scrollToTop, VideoArray, updateData, checkId, handleClick}}>
+      <AppContext.Provider value={{scrollToTop, VideosArray, updateData, checkId, handleClick}}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
             toggle={toggle}
