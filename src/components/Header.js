@@ -16,11 +16,11 @@ const Header = (props) => {
             <div>
                 <div>
                     <ul className='flex justify-center flex-col py-7 items-start font-[Poppins]'>
-                        <li className='w-[100%] '><NavLink className='flex' activeClassName='text-[blue]'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
-                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
-                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
-                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
-                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex active:text-violet-700'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex active:text-violet-700'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex active:text-violet-700'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex active:text-violet-700'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex active:text-violet-700'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2'>
