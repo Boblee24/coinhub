@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../logo.svg'
 import "../style_header.css"
 import { FaFacebookSquare, FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
@@ -9,18 +9,18 @@ const Header = (props) => {
   return (
     <div className='bg-[#FFFFFF] flex fixed  p-3 header z-10 ' data-transform={props.toggle}>
         <div className='flex flex-col logo_links'>
-            <Link to="/" onClick={props.handleHarmbugerclick} className=' flex items-center justify-start w-full' >
+            <NavLink to="/" onClick={props.handleHarmbugerclick} className=' flex items-center justify-start w-full' >
                 <img className='image' src={logo} alt='logo'/>
                 <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
-            </Link>
+            </NavLink>
             <div>
                 <div>
-                    <ul className='flex justify-center flex-col py-7 items-start'>
-                        <li><Link to="/about" onClick={props.handleHarmbugerclick}>About</Link></li>
-                        <li><Link to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</Link></li>
-                        <li><Link to="/blog" onClick={props.handleHarmbugerclick}>Blog</Link></li>
-                        <li><Link to="/journey" onClick={props.handleHarmbugerclick}>Journey</Link></li>
-                        <li><Link to="/help" onClick={props.handleHarmbugerclick}>Help</Link></li>
+                    <ul className='flex justify-center flex-col py-7 items-start font-[Poppins]'>
+                        <li className='w-[100%] '><NavLink className='flex' activeClassName='text-[blue]'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
+                        <li className='w-[100%] '><NavLink className='flex' activeClass to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2'>

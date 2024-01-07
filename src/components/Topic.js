@@ -11,7 +11,7 @@ import Images from '../Images';
 import { AppContext } from '../App';
 
 const Topic = () => {
-    const {VideoArray} = useContext(AppContext)
+    const {VideosArray} = useContext(AppContext)
   return (
     <div className='topic'>
         <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
@@ -70,7 +70,7 @@ const Topic = () => {
             <h3 className=' text-[1.7rem] font-[Epilogue] font-bold'>Video Tutorial</h3>
             <p className='text-[.9rem] text-[#91A3B2]'>Learn how to use our platform by watching the following set of Tutorial videos</p>
         </div>
-          {VideoArray.videos.map((videoarray) => (
+          {VideosArray.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
               <h2 className='font-[Poppins] font-semibold py-2'>{videoarray.title}</h2>
