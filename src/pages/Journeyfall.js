@@ -12,7 +12,9 @@ const Journeyfall = (props) => {
                     <p className='text-[#2196F3] font-[Poppins]'>Trending videos</p>
                 </div>
                 {VideosArray.map((videoarray) => (
-                    <div key={videoarray.article_id} className='flex my-2 gap-4 shadow-lg rounded-xl shadow-[#E2E7EB]'>
+                    <div onClick={() => {handleClick(videoarray.article_id, VideosArray, props.setClickedVideo)
+                        scrollToTop() ;            
+                    }} key={videoarray.article_id} className='flex my-2 gap-4 shadow-lg rounded-xl shadow-[#E2E7EB]'>
                         {/* <video width="640" height="360"  className="video-js vjs-default-skin vjs-big-play-centered"controls src={videoarray.src} type="video/mp4"></video> */}
                         <div className='w-[200px] h-[140px] overflow-hidden '>
                             <img className='w-[100%] h-full object-cover rounded-l-lg' src={videoarray.image} alt={videoarray.article_id}/>
