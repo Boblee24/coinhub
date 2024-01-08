@@ -24,7 +24,6 @@ const Newsfall = (props) => {
               <h2>{trimWords(article.title, 50)}</h2>
               <p className='text-[.8rem]'>{trimWords(article.description, 90)}  <button className='remove' onClick={() => {
                 handleClick(article.article_id, updateData, props.setClickedArticle)
-                // console.log(props.updateData)
                 scrollToTop();}
               }>
                 Read More &rarr;
