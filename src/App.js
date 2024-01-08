@@ -12,7 +12,6 @@ import {nanoid} from 'nanoid'
 import About from './pages/About';
 import Blog from './pages/Blog';
 import WHY_US from './pages/Why_us';
-// import {QueryClient, QueryClientProvider} from "@tanstack/react-query"
 import Newsfall from './pages/Newsfall';
 import Credits from './components/Credits';
 import Footer from './components/Footer';
