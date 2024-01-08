@@ -16,7 +16,7 @@ const Journey = () => {
           {VideosArray.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
-              <h2 className='font-[Poppins] font-semibold p-1'>{videoarray.title}</h2>
+              <h2 className='font-[Poppins] font-semibold p-1 '>{videoarray.title}</h2>
             </div>
           ))}
         </div>
