@@ -29,7 +29,7 @@ const Journey = () => {
       <Journeyhero/>
       {journeyvideos('30 Seconds Smarter', 'A short 30 second video that will make you understand more about the capital market')}
       {journeyvideos('Learn with us', 'Develop and improve your knowledge of skills about the world of stocks to achieve maximum profit')}
-      {/* <Videos video = {props.VideoArray} checkVideo = {props.checkVideo} /> */}
+      {/* <Videos  video = {props.VideoArray} checkVideo = {props.checkVideo} /> */}
     </div>
   )
 }
