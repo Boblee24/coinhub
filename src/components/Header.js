@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../logo.svg'
 import "../style_header.css"
 import { FaFacebookSquare, FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { AppContext } from '../App';
 
 const Header = (props) => {
+    const {scrollToTop} = useContext(AppContext)
   return (
     <div className='bg-[#FFFFFF] flex fixed  p-3 header z-10 ' data-transform={props.toggle}>
         <div className='flex flex-col logo_links'>
@@ -16,16 +18,16 @@ const Header = (props) => {
             <div>
                 <div>
                     <ul className='flex justify-center flex-col py-7 items-start font-[Poppins]'>
-                        <li className='w-[100%] text-[#485967] '><NavLink className='flex active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
-                        <li className='w-[100%] text-[#485967] '><NavLink className='flex active:text-[#2196F3] active:font-semibold'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
-                        <li className='w-[100%] text-[#485967] '><NavLink className='flex active:text-[#2196F3] active:font-semibold'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
-                        <li className='w-[100%] text-[#485967] '><NavLink className='flex active:text-[#2196F3] active:font-semibold'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
-                        <li className='w-[100%] text-[#485967] '><NavLink className='flex active:text-[#2196F3] active:font-semibold'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2'>
                     <a className='font-[Poppins]' href='/'>Sign Up &rarr;</a>
-                    <a className='font-[Poppins]' href='/'>Login &rarr;</a>
+                    <a className='font-[Poppins]' href='/'>Login &rarr;</a> 
                 </div>
                 <div className='relative bg-[red]  inset-0'>
                     <div className='social absolute flex justify-between bottom-[6rem] h-full top-2/4 left-2/4' >
