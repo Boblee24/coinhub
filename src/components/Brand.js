@@ -18,8 +18,8 @@ const Brand = () => {
     nextArrow : null
   };
   return (
-    <div>
-        <h2 className='text-[1.6rem] md:text-[24px] text-center font-[500] p-2'>Invest in their stock and be part of the business</h2>
+    <div className='md:mt-7'>
+        <h2 className='text-[1.6rem] md:text-[24px] font-[Poppins] text-center font-semibold p-2'>Invest in their stock and be part of the business</h2>
         <div className='brands gap-4 items-center'>
               <Slider {...settings}>
                 <div className='p-3 md:p-7'><img className='' src={Images.segment} alt='segment'/> </div>
