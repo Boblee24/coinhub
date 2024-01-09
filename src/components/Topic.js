@@ -15,7 +15,7 @@ const Topic = () => {
   return (
     <div className='topic'>
         <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
-        <div className='grid grid-cols-2 gap-4 m-4'>
+        <div className='grid grid-cols-2 xs:grid-cols-3 gap-4 m-4'>
             <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
                 <div className='text-[#2196F3] flex justify-center'>
                     <FaRegHourglass size={30}/>

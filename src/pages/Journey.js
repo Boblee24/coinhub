@@ -12,10 +12,10 @@ const Journey = () => {
           <h2 className='text-[2.1rem] font-[Epilogue] font-bold'>{heading1}</h2>
           <p className='text-[#5D7285] text-[14px] font-[Poppins]'>{heading2}</p>
         </div>
-        <div className='grid grid-cols-1 gap-4 m-2 items-stretch'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 m-2 items-stretch'>
           {VideosArray.map((videoarray) => (
-            <div key={videoarray.article_id}>
-              <video width="540" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
+            <div key={videoarray.article_id} className='max-w-[500px] w-full my-0 mx-auto'>
+              <video className="video-js h-auto w-full vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
               <h2 className='font-[Poppins] font-semibold p-1 '>{videoarray.title}</h2>
             </div>
           ))}
