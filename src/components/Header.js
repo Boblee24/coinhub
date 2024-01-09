@@ -15,7 +15,7 @@ const Header = (props) => {
                 <img className='image' src={logo} alt='logo'/>
                 <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
             </NavLink>
-            <div>
+            <div> 
                 <div>
                     <ul className='flex justify-center flex-col py-7 items-start font-[Poppins]'>
                         <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>

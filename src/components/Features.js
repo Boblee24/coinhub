@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div className='feature'>
         <div className='flex flex-col m-2'>
-            <div className='p-5 '><img src={Images.girlwithphone} alt='girlwith'/></div>
+            <div className='p-5 w-[80%] m-auto'><img className='w-[80%]' src={Images.girlwithphone} alt='girlwith'/></div>
             <div className='right'>
                 <h4 className='text-[#2196F3] font-semibold'>OUR FEATURES</h4>
                 <h3 className='text-[1.5rem] font-bold'>Receive update market quickly everytime</h3>
