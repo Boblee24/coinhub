@@ -12,8 +12,8 @@ const News = () => {
         }
     }
     const newsArray = updateData.map((article) => (
-        <div className='sub_news shadow-[#E2E7EB] shadow-lg rounded-xl self-stretch h-[355px] relative my-2' key={article.article_id}>
-            <img className='rounded-t-xl' src= {article.urlToImage} alt='soft'/>
+        <div className='sub_news shadow-[#E2E7EB] shadow-lg rounded-xl self-stretch relative py-5 my-2' key={article.article_id}>
+            <img className='rounded-t-xl h-32 object-cover' src= {article.urlToImage} alt='soft'/>
             <div className=' p-1'>
                 <div className='flex justify-between my-3'>
                     <h5 className='text-[.7rem] text-[#485967] '>21/03/2022</h5>
