@@ -29,7 +29,7 @@ const News = () => {
         </div>
     ))
   return (
-    <div className='news grid grid-cols-2 gap-2 xs:gap-4 md:gap-6 m-2 dm:grid-cols-3 dm:contents-center  '>
+    <div className='news grid grid-cols-2 gap-2 xs:gap-4 md:gap-6 m-2 dm:grid-cols-3 justify-items-center  '>
         {newsArray}
     </div>
   ) 
