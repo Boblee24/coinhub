@@ -13,69 +13,73 @@ import { AppContext } from '../App';
 const Topic = () => {
     const {VideosArray} = useContext(AppContext)
   return (
-    <div className='topic'>
-        <h3 className='text-center text-[2rem]'>Favorite Help Topic</h3>
-        <div className='grid grid-cols-2 xs:grid-cols-3 gap-4 m-4'>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <FaRegHourglass size={30}/>
+    <div className=''>
+        <div className='my-2 xs:my-4 dm:my-6'>
+            <h3 className='text-center text-[2rem] md:text-[40px] font-bold font-[Epilogue]'>Favorite Help Topic</h3>
+            <div className='grid grid-cols-2 xs:grid-cols-3 gap-4 m-4 dm:grid-cols-4'>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <FaRegHourglass size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>About Tradiant</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>About Tradiant</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <MdOutlineEventNote size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <MdOutlineEventNote size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Beginner's Guide</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Beginner's Guide</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <BsPersonPlus size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <BsPersonPlus size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Account Opening</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Account Opening</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <SlNotebook size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <SlNotebook size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Education</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Education</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <FaChartLine size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <FaChartLine size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Tools</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Trading Tools</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <FcInspection size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <FcInspection size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Special Promotion</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Special Promotion</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <PiChartLineUp size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <PiChartLineUp size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>General Trading</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>General Trading</h4>
-            </div>
-            <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
-                <div className='text-[#2196F3] flex justify-center'>
-                    <LuDownload size={30}/>
+                <div className='topic flex items-center gap-3 shadow-lg rounded-xl shadow-[#E2E7EB] p-3'>
+                    <div className='text-[#2196F3] flex justify-center'>
+                        <LuDownload size={30}/>
+                    </div>
+                    <h4 className='w-[50px] font-semibold font-[Poppins]'>Download Platform</h4>
                 </div>
-                <h4 className='w-[50px] font-semibold font-[Poppins]'>Download Platform</h4>
             </div>
-    </div>
-    <div className='grid grid-cols-1 gap-4 m-4 items-stretch'>
+        </div>
+    <div className='grid grid-cols-1 gap-4 m-4 items-stretch my-6'>
         <div className='text-center'>
             <h3 className=' text-[1.7rem] font-[Epilogue] font-bold'>Video Tutorial</h3>
             <p className='text-[.9rem] text-[#91A3B2]'>Learn how to use our platform by watching the following set of Tutorial videos</p>
         </div>
+        <div className='md:flex md:gap-2'>
           {VideosArray.map((videoarray) => (
             <div key={videoarray.article_id}>
-              <video width="640" height="360" className="video-js vjs-default-skin vjs-big-play-centered rounded-lg"controls src={videoarray.src} type="video/mp4"></video>
+              <video className="video-js vjs-default-skin vjs-big-play-centered rounded-lg md:h-[240px] md:w-100%" controls src={videoarray.src} type="video/mp4"></video>
               <h2 className='font-[Poppins] font-semibold py-2'>{videoarray.title}</h2>
             </div>
           ))}
+        </div>
     </div>
         <section className='flex-col flex justify-center px-[5%] gap-7 py-4 bg-[#F1F9FF] md:flex-row md:justify-between md:items-center md:gap-[5%] '>
             <div className='md:w-[50%]'>
