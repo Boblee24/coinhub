@@ -77,9 +77,11 @@ const Topic = () => {
             </div>
           ))}
     </div>
-        <section className='flex-col flex justify-center px-[5%] gap-7 py-4 bg-[#F1F9FF]'>
-            <img src={Images.mission} alt='mission'/>
-            <div className='flex flex-col gap-5'>
+        <section className='flex-col flex justify-center px-[5%] gap-7 py-4 bg-[#F1F9FF] md:flex-row md:justify-between md:items-center md:gap-[5%] '>
+            <div className='md:w-[50%]'>
+                <img src={Images.mission} alt='mission'/>   
+            </div>
+            <div className='flex flex-col gap-5 md:w-1/2'>
                 <h3 className='leading-[1rem] text-[1.7rem] font-[Epilogue] font-bold'>Glosarium Trading</h3>
                 <p>Day Trading is Refers to a certain financial transaction position which is opened and closed on the same day (not overnight).</p>
                 <button className='self-start'>Learn More</button>
