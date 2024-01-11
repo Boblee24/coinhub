@@ -3,7 +3,7 @@ import { SiEasyeda } from "react-icons/si";
 import Slider from "react-slick";
 
 const ABOUT_VALUE = () => {
-  const settings = {
+  let settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,

@@ -1,6 +1,6 @@
 import './App.css';
 import "./style1.css"
-import {useState, createContext} from 'react'
+import {useState, createContext, useEffect} from 'react'
 import {useNavigate, Route, Routes} from 'react-router-dom'
 import Header from './components/Header';
 import data from './data.json'
@@ -23,10 +23,30 @@ export const AppContext = createContext()
 function App() {
 
   //navigation of sidebar
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(window.innerWidth > 768)
   const handleHarmbugerclick = () => {
-     setToggle(!toggle)
+    setToggle((prevToggle) => { 
+    if (window.innerWidth <= 768) {
+      // Toggle the value based on the previous value
+      return !prevToggle;
+    } else {
+      // If the window width is greater than 768px, set it to true
+      return false;
+    }
+  });
+  
   }
+  useEffect(() => {
+    const handleResize = () => {
+      setToggle(window.innerWidth > 768)
+    }
+    window.addEventListener('resize', handleResize)
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    } 
+  }, [])
+
+  
   const scrollToTop = () => {
     window.scrollTo({
       top : 0,
