@@ -24,7 +24,13 @@ const Images = {
     open: require('./open.png'),
     sponsor: require('./sponsor.png'),
     home: require('./home.png'),
-    girlslooking: require('./girlslooking.png')
+    girlslooking: require('./girlslooking.png'),
+    testy1: require('./testy1.webp'),
+    testy2: require('./testy2.webp'),
+    testy3: require('./testy3.webp'),
+    testy4: require('./testy4.webp'),
+    testy5: require('./testy5.webp'),
+    testy6: require('./testy6.webp'),
 
 }
 
