@@ -1,5 +1,4 @@
 import React from 'react'
-// import {FaBahai} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -8,5 +7,4 @@ const Footer = () => {
     </div>
   )
 }
-
 export default Footer
