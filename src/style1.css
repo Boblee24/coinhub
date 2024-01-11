@@ -36,9 +36,19 @@ button.remove, a.remove {
     .app button , .home a, .newsletter input[type="submit"], .login a {
         padding: .8rem 1.4rem;
     }
+    button.remove, a.remove {
+        background: none;
+        color: #2196F3;
+        padding: 0;
+    }
 }
 @media only screen and (min-width:1024px){
     .app button , .home a, .newsletter input[type="submit"], .login a {
         padding: 1rem 2rem;
+    }
+    button.remove, a.remove {
+        background: none;
+        color: #2196F3;
+        padding: 0;
     }
 }

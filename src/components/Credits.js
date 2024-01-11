@@ -26,7 +26,7 @@ const Credits = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-wrap gap-5 my-4'>
+        <div className='flex flex-wrap gap-5 my-4 md:gap-[10%]'>
             <div className='footer_right'>
                 <h5 className='font-medium'>Companies</h5>
                 <ul className='text-[.9rem]'>
