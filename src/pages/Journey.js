@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import Journeyhero from '../components/Journeyhero'
 import { AppContext } from '../App'
 
-const Journey = () => {
+const Journey = (props) => {
   const {VideosArray} = useContext(AppContext)
   
   const journeyvideos = (heading1, heading2) => {
@@ -20,7 +20,7 @@ const Journey = () => {
             </div>
           ))}
         </div>
-        <div className=' my-3 md:flex md:items-center md:justify-center'><button>See more Videos</button></div>
+        <div onClick={props.navToJourneyFall} className=' my-3 md:flex md:items-center md:justify-center'><button>See more Videos</button></div>
         
       </div>
     )

@@ -21,7 +21,7 @@ const Journeyfall = (props) => {
                         </div>
                         <div className='w-full flex flex-col py-2 justify-between'>
                             <h2>{videoarray.title}</h2>
-                            <p className=''>{videoarray.description}</p>
+                            <p className=''>{videoarray.description}</p> 
                             <button className='remove self-start' onClick={() => {handleClick(videoarray.article_id, VideosArray, props.setClickedVideo)
                                     scrollToTop() ;            
                             }}>Watch More</button>

@@ -35,8 +35,8 @@ function App() {
   }
 
   const navigate = useNavigate()
-  const [clickedArticle, setClickedArticle] = useState("");
-  const [clickedVideo, setClickedVideo] = useState("");
+  
+  
   const updateData = data.articles.map((article) => ({
     ...article,
     article_id: article.article_id || nanoid()//replacing the json file byh destructuring thye existing the array of bulloks
@@ -47,7 +47,17 @@ function App() {
     const clickedData = articleOrVideo.find((article) => article.article_id === articleId)// Used this to get the elements of the clicked index array
     clicked(clickedData)
   }
+
   const VideosArray = VideoArray.videos
+
+  const [clickedVideo, setClickedVideo] = useState({
+    ...VideosArray[0]
+  });
+  const [clickedArticle, setClickedArticle] = useState({
+    ...updateData[0]
+  });
+
+  const navToJourneyFall = () => navigate("/journeyfall") 
 
   const checkId = (newsId) => {
     navigate("/newsfall")
@@ -84,6 +94,7 @@ function App() {
           <Route path="about" element={<About/>}/>
           <Route path="journey" element={<Journey
             checkVideo = {checkVideo}
+            navToJourneyFall = {navToJourneyFall}
           />}
           />
           <Route path="journeyfall" element={<Journeyfall 
