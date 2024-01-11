@@ -72,7 +72,7 @@ const Topic = () => {
             <h3 className=' text-[1.7rem] font-[Epilogue] font-bold'>Video Tutorial</h3>
             <p className='text-[.9rem] text-[#91A3B2]'>Learn how to use our platform by watching the following set of Tutorial videos</p>
         </div>
-        <div className='md:flex md:gap-2'>
+        <div className='md:flex md:gap-3'>
           {VideosArray.map((videoarray) => (
             <div key={videoarray.article_id}>
               <video className="video-js vjs-default-skin vjs-big-play-centered rounded-lg md:h-[240px] md:w-100%"controls src={videoarray.src} type="video/mp4"></video>
