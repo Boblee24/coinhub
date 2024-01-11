@@ -16,7 +16,7 @@ const ABOUT_VALUE = () => {
   
   return (
     <div className='about_value bg-[#EFF2F4] py-7'>
-        <div className=' text-center md:mx-[10%]'>
+        <div className=' text-center %]md:mx-[10'>
             <h3 className='text-[1.8rem] font-[Epilogue] font-bold md:text-[40px]'>Our Values</h3>
             <p className='p-3 text-[.9rem]'>Our values are reflected in our product offering and user experience, as well as being embedded in our internal culture and employee experience.</p>
         </div>
