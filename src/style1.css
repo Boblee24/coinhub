@@ -32,3 +32,13 @@ button.remove, a.remove {
 .newsfall h2 {
     font-size: 1rem;
 }
+@media only screen and (min-width:750px){
+    .app button , .home a, .newsletter input[type="submit"], .login a {
+        padding: .8rem 1.4rem;
+    }
+}
+@media only screen and (min-width:1024px){
+    .app button , .home a, .newsletter input[type="submit"], .login a {
+        padding: 1rem 2rem;
+    }
+}

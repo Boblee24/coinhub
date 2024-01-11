@@ -75,7 +75,7 @@ const Topic = () => {
         <div className='md:flex md:gap-2'>
           {VideosArray.map((videoarray) => (
             <div key={videoarray.article_id}>
-              <video className="video-js vjs-default-skin vjs-big-play-centered rounded-lg md:h-[240px] md:w-100%" controls src={videoarray.src} type="video/mp4"></video>
+              <video className="video-js vjs-default-skin vjs-big-play-centered rounded-lg md:h-[240px] md:w-100%"controls src={videoarray.src} type="video/mp4"></video>
               <h2 className='font-[Poppins] font-semibold py-2'>{videoarray.title}</h2>
             </div>
           ))}
