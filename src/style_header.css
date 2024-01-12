@@ -27,5 +27,9 @@ img.image {
     gap: 2rem;
 }
 @media only screen and (min-width:768px){
-
+    [data-transform = 'false']{
+        transition: .5s ease-in;
+        opacity: 1;
+        z-index: 20;
+    }
 }

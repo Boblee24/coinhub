@@ -3,7 +3,7 @@
     --primary-500 : #2196F3;
 }
 .app button , .home a, .newsletter input[type="submit"], .login a  {
-    padding: .5rem 1rem;
+    padding: .4rem 1rem;
     background-color: var(--primary-500);
     border-radius: .5rem;
 }
