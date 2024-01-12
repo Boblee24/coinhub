@@ -44,9 +44,9 @@ function App() {
     return () => {
       window.removeEventListener('resize', handleResize)
     } 
-  }, [])
+  }, [toggle])
 
-  
+
   const scrollToTop = () => {
     window.scrollTo({
       top : 0,
