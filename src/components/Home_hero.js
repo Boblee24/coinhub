@@ -3,7 +3,7 @@ import Images from '../Images'
 
 const HOME_HERO = () => {
   return (
-    <div className='bg-[#F5F5F5] home flex flex-col pt-14 font-[Epilogue] md:flex-row md:items-center overflow-hidden'>
+    <div className='bg-[#F5F5F5] home flex flex-col pt-14 font-[Epilogue] md:flex-row md:items-center md:justify-end overflow-hidden'>
         <div className='m-3 p-2 md:mr-0'>
             <div className='max-w-md'>
                 <p><span className='text-[#91A3B2] md:text-[20px]' >Smart Investation</span></p>
@@ -21,8 +21,8 @@ const HOME_HERO = () => {
                 </div>
             </div>
         </div>
-        <div className='my-4 md:w-[80%] mr-[-2rem] '>
-            <img className='md:w-[90%]' src={Images.home} alt='home'/>
+        <div className='my-4 md:w-[60%] '>
+            <img className='md:w-[100%]' src={Images.home} alt='home'/>
         </div>
     </div>
   )
