@@ -57,6 +57,13 @@ button.remove, a.remove {
         height: 40px;
     }
 }
+@media only screen and (min-width:768px){
+    .helloworld{
+        background: none !important;
+        color: #2196F3;
+        padding: 0;
+    }
+}
 @media only screen and (min-width:1024px){
     .app button , .home a, .newsletter input[type="submit"], .login a {
         padding: 1rem 2rem;

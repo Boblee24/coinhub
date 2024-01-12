@@ -9,25 +9,25 @@ import { AppContext } from '../App';
 const Header = (props) => {
     const {scrollToTop} = useContext(AppContext)
   return (
-    <div className='bg-[red] flex fixed md:block md:h-[4rem] p-3 md:py-0 header z-10 ' data-transform={props.toggle}>
+    <div className='bg-[red] flex fixed md:justify-around md:h-[4rem] p-3 md:py-0 header z-10 md:w-[100%]' data-transform={props.toggle}>
         <div className='flex flex-col logo_links md:flex-row '>
-            <NavLink to="/" onClick={props.handleHarmbugerclick} className=' flex items-center md:items-start justify-start w-full' >
+            <NavLink to="/" onClick={props.handleHarmbugerclick} className=' flex items-center md:items-start w-full md:w-auto' >
                 <img className='image' src={logo} alt='logo'/>
                 <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
             </NavLink>
-            <div className='md:flex'> 
+            <div className='md:flex '> 
                 <div>
-                    <ul className='flex justify-center flex-col py-7 md:py-0 items-start font-[Poppins] md:flex-row'>
-                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
-                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
-                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
-                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
-                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex active:text-[#2196F3] active:font-semibold'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
+                    <ul className='flex justify-center flex-col py-7 md:py-0 items-start font-[Poppins] md:flex-row md:justify-between bg-black'>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex md:block active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex md:block active:text-[#2196F3] active:font-semibold'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex md:block active:text-[#2196F3] active:font-semibold'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex md:block active:text-[#2196F3] active:font-semibold'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
+                        <li onClick={scrollToTop()} className='w-[100%]  text-[#485967] '><NavLink  className='flex md:block active:text-[#2196F3] active:font-semibold'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2 md:flex-row h-auto'>
-                    <a className='font-[Poppins]' href='/'>Sign Up &rarr;</a>
-                    <a className='font-[Poppins]' href='/'>Login &rarr;</a> 
+                    <a className='font-[Poppins] helloworld' href='/'>Sign Up &rarr;</a>
+                    <a className='font-[Poppins] ' href='/'>Login &rarr;</a> 
                 </div>
                 <div className='relative bg-[red]  inset-0'>
                     <div className='social absolute flex justify-between bottom-[6rem] h-full top-2/4 left-2/4 md:hidden' >
