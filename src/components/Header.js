@@ -17,11 +17,11 @@ const Header = (props) => {
             </NavLink>
             <div className='md:flex md:justify-between md:w-full'> 
                 <ul className='flex justify-center flex-col py-7 md:py-0 items-start font-[Poppins] md:flex-row md:justify-around md:w-[60%] md:ml-[3%] md:items-center'>
-                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] active:text-[#2196F3] active:font-semibold'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
-                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] active:text-[#2196F3] active:font-semibold'  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
-                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] active:text-[#2196F3] active:font-semibold'  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
-                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] active:text-[#2196F3] active:font-semibold'  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
-                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] active:text-[#2196F3] active:font-semibold'  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
+                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] '  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
+                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] '  to="/why_us" onClick={props.handleHarmbugerclick}>Why Us?</NavLink></li>
+                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] '  to="/blog" onClick={props.handleHarmbugerclick}>Blog</NavLink></li>
+                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] '  to="/journey" onClick={props.handleHarmbugerclick}>Journey</NavLink></li>
+                    <li onClick={scrollToTop()} className='w-[100%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] '  to="/help" onClick={props.handleHarmbugerclick}>Help</NavLink></li>
                 </ul>
                 <div className='flex gap-4 flex-col login text-center justify-between m-2 md:flex-row h-auto'>
                     <a className='font-[Poppins] helloworld md:text-[.8rem] md:p-0' href='/'>Sign Up &rarr;</a>

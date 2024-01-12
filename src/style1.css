@@ -29,6 +29,10 @@ button.remove, a.remove {
 .newsfall h2 {
     font-size: 1rem;
 }
+.active {
+    color: #2196F3;
+    font-weight: bold;
+}
 @media only screen and (min-width:750px){
     .app button , .home a, .newsletter input[type="submit"], .login a {
         padding: .8rem 1.4rem;
