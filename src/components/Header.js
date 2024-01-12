@@ -9,7 +9,7 @@ import { AppContext } from '../App';
 const Header = (props) => {
     const {scrollToTop} = useContext(AppContext)
   return (
-    <div className='bg-[white] flex fixed md:justify-around md:h-[4rem] p-3 md:py-0 header z-30 md:w-[100%]' data-transform={props.toggle}>
+    <div className='bg-[white] flex fixed md:justify-around md:h-[4rem] p-3 md:py-0 header z-20 md:w-[100%]' data-transform={props.toggle}>
         <div className='flex flex-col logo_links md:flex-row md:justify-between '>
             <NavLink to="/" onClick={props.handleHarmbugerclick} className=' flex items-center w-full md:w-auto ' >
                 <img className='image' src={logo} alt='logo'/>

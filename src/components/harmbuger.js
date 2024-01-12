@@ -3,7 +3,7 @@ import "../style2.css"
 
 const Harmbuger = (props) => {
   return (
-    <div className=' flex fixed z-20 justify-between w-full p-2 bg-slate-200 md:hidden '>
+    <div className=' flex fixed z-20 justify-between w-full p-2 bg-[white] md:hidden '>
         <Heading handleHarmbugerclick={props.handleHarmbugerclick} toggle ={props.toggle}/>
         <button onClick={props.handleHarmbugerclick} className="button-three mt-[-2px] md:hidden" aria-controls="primary-navigation" aria-expanded={props.toggle}>
     <svg stroke="var(--button-color)" fill="none" className="hamburger" viewBox="-10 -10 120 120" width="45">
