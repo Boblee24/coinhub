@@ -1,7 +1,7 @@
 import React from 'react'
 import Images from '../Images'
 
-const Features = () => {//helo worlld
+const Features = () => {//helo worll
   return (//my name is aborisade ayomiposi soft
     <div className='feature'>
         <div className='flex flex-col m-2 md:ml-9 md:flex-row md:justify-between md:items-center gap-3 md:gap-7 md:px-[3%] py-3 '>
