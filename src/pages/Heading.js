@@ -10,7 +10,7 @@ const Heading = (props) => {
     <div className='heading'>
         <Link to="/" onClick={props.toggle && props.handleHarmbugerclick} className='flex head items-center justify-start w-full mt-1 ml-1' >
                 <img className='image' src={logo} alt='logo'/>
-                <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
+                <h1 className='text-[#074C83] font-bold font-[Epilogue] px-3 text-lg'>Tradiant.</h1>
             </Link>
     </div>
   )
