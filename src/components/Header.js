@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import logo from '../logo.svg'
 import "../style_header.css"
 import { FaFacebookSquare, FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
@@ -11,10 +11,10 @@ const Header = (props) => {
   return (
     <div className='bg-[white] flex fixed md:justify-center md:h-[4rem] p-3 md:p-[3%]  md:py-0 header z-20 md:w-[100%]' data-transform={props.toggle}>
         <div className='flex flex-col logo_links md:flex-row md:justify-between '>
-            <NavLink to="/" onClick={props.handleHarmbugerclick} className=' flex items-center w-full md:w-auto ' >
+            <Link to="/" onClick={props.handleHarmbugerclick} className=' flex items-center w-full md:w-auto ' >
                 <img className='image' src={logo} alt='logo'/>
-                <h1 className='text-[#2196F3] px-3 text-lg'>Coinhub</h1>
-            </NavLink>
+                <h1 className='text-[#074C83] font-bold font-[Epilogue] px-3 text-lg'>Tradiant.</h1>
+            </Link>
             <div className='md:flex md:justify-between md:w-full'> 
                 <ul className='flex justify-center flex-col py-7 md:py-0 items-start font-[Poppins] md:flex-row md:justify-around md:w-[60%] md:ml-[3%] md:items-center'>
                     <li onClick={scrollToTop()} className='w-[40%] md:w-auto  text-[#485967] '><NavLink  className='flex md:text-[.8rem] font-[Poppins]'  to="/about" onClick={props.handleHarmbugerclick}>About</NavLink></li>
