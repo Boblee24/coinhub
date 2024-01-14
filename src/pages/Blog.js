@@ -4,7 +4,6 @@ import Newsletter from '../components/Newsletter';
 
 
 const Blog = (props) => {
-  
   return (
     <div className='blog'>
       <Bloghero/>
@@ -12,7 +11,6 @@ const Blog = (props) => {
       <Newsletter/>
     </div>
   )
-
 }
 
 export default Blog
