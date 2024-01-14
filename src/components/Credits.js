@@ -15,7 +15,7 @@ const Credits = () => {
         <div className=''>
             <Link to="/" className='flex items-center gap-2 ' >
                 <img src={logo} className='soft w-10 h-10' alt='logo'/>
-                <h6 className='text-[#074C83]'>Coinhub</h6>
+                <h6 className='text-[#074C83] font-bold font-[Epilogue] text-[2rem]'>Tradiant.</h6>
             </Link>
             <p className='text-[.9rem]'>Maximize your investment in the capital market world with the convenience and various features provided by Tradiant.</p>
             <div className='download'>
