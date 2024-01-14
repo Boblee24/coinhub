@@ -83,15 +83,13 @@ function App() {
     navigate("/newsfall")
     handleClick(newsId, updateData, setClickedArticle)
   }
-
-
   const checkVideo = (newsId) => {
     navigate("/journeyfall")
     handleClick(newsId, VideosArray, setClickedVideo)
   }
 
   return (
-    <div className=" bg-[#FFFFFF] app relative">
+    <div className=" bg-[#FFFFFF] app relative max">
       <AppContext.Provider value={{scrollToTop, VideosArray, updateData, checkId, handleClick}}>
           <Header
             handleHarmbugerclick={handleHarmbugerclick} 
