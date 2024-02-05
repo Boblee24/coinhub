@@ -2,14 +2,14 @@ import React, { useContext } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import logo from '../logo.svg'
 import "../style_header.css"
-import { FaFacebookSquare, FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsappSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { AppContext } from '../App';
 
 const Header = (props) => {
     const {scrollToTop} = useContext(AppContext)
   return (
-    <div className='bg-[white] flex fixed md:justify-center md:h-[4rem] p-3 md:p-[3%]  md:py-0 header z-20 md:w-[100%]' data-transform={props.toggle}>
+    < div className='bg-[white] flex fixed md:justify-center md:h-[4rem] p-3 md:p-[3%]  md:py-0 header z-20 md:w-[100%]' data-transform={props.toggle}>
         <div className='flex flex-col logo_links md:flex-row md:justify-between '>
             <Link to="/" onClick={props.handleHarmbugerclick} className=' flex items-center w-full md:w-auto ' >
                 <img className='image' src={logo} alt='logo'/>
@@ -29,11 +29,11 @@ const Header = (props) => {
                 </div>
                 <div className='relative bg-[red] inset-0'>
                     <div className='social absolute flex justify-between bottom-[6rem] h-full top-2/4 left-2/4 md:hidden' >
-                        <a href='https://www.google.com'><FaFacebookSquare className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href='https://www.google.com' ><FaXTwitter className='w-8 h-8 text-[#5D7285]' /></a>
-                        <a href='https://www.google.com'><FaWhatsappSquare className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href='https://www.google.com'><FaLinkedin className='w-8 h-8 text-[#5D7285]'/></a>
-                        <a href='https://www.google.com'><FaGithub className='w-8 h-8 text-[#5D7285]'/></a>
+                        {/* <a href='https://www.google.com'><FaFacebookSquare className='w-8 h-8 text-[#5D7285]'/></a> */}
+                        <a href='https://twitter.com/BOBLEE_AYO' ><FaXTwitter className='w-8 h-8 text-[#5D7285]' /></a>
+                        <a href='wa.link/7f3fb1'><FaWhatsappSquare className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://www.linkedin.com/in/ayomiposi-aborisade-74859922a/'><FaLinkedin className='w-8 h-8 text-[#5D7285]'/></a>
+                        <a href='https://github.com/Boblee24'><FaGithub className='w-8 h-8 text-[#5D7285]'/></a>
                     </div>
                 </div>
             </div>
